@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-baseURL = "https://probablyalexzhu.github.io/alexzhu/"
+baseURL = "https://probablyalexzhu.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
