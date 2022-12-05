@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Congo! :tada:"
-description: "This is a demo of the Congo theme for Hugo."
+title: "Home"
+summary: "Hi! This is Alex Zhu's personal website."
 ---
 
 Hello! Often when I have intriguing ideas, I feel the urge to capture them by writing them down. I created this blog to share some of my more complete thoughts with everyone.
