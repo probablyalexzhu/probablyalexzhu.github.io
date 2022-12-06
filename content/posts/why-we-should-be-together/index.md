@@ -10,7 +10,7 @@ showReadingTime: true
 showSummary: true
 showAuthor: true
 showTableOfContents: false
-showComments: false
+showComments: true
 ---
 
 Please read: this is not about relationships. This is about why I want to blog, and why you should read my blog. We should be reader and writer :hearts:
