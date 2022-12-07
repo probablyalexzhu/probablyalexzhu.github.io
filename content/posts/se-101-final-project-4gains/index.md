@@ -1,7 +1,7 @@
 ---
 title: "SE 101 Final Project: Full Stack Arduino Exercise Tracker (4Gains)"
 tags: [projects, software engineering, hardware]
-date: 2022-12-06
+date: 2022-12-07
 showDate: true
 showWordCount: true
 showReadingTime: true
