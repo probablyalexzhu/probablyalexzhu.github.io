@@ -98,7 +98,6 @@ Oh yeah, and here's the incredible frontend that really ties our project togethe
 The SE101 final project was a great learning experience. I'd like to thank my team again. In the end, I'm proud of our team for pulling together and creating something beyond what I thought was possible before we began, and I believe the rest of the teams in the cohort likely concluded with a similar sentiment. We all watched the past years' project demos and thought, "what am I doing in this program, these guys are all cracked," but once we did it ourselves, we slowly built the projects we had dreamt of.
 
 #### TL:DR of my takeaways of the project once more:
-1. **Hardware is hard.**
-2. **If it can be done easily, do it easily.**
-3. **Integrate first.**
-4. **Do research before you design your system.**
+1. **Hardware is hard, so do less.**
+2. **Integrate first.**
+3. **Do research before you design your system.**
