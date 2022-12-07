@@ -21,7 +21,7 @@ draft: false
 
 ![Arduino hardware in incomplete cardboard box under construction on table in E7 garage.](thumb.jpg "SE 101 Final Project in progress, 2022")
 
-As software engineering students, it was tough when our final project guidelines forced us to use hardware. No one on my team of five, *4Fun*, had much hardware experience, so we had to research a lot from scratch and made a lot of mistakes on the way. My plan in this article is talk about what we made on a technical level and provide takeaways for the future.
+As software engineering students, it was tough when our final project guidelines forced us to use hardware. No one on my team of five, *4Fun*, had much hardware experience, so we had to research a lot from scratch and made a lot of mistakes on the way. **My plan in this article is talk about what we made on a technical level and provide takeaways for the future.**
 
 ### What We Made 💪
 {{< youtube "Pv8vML8Qfhs" >}}
@@ -40,7 +40,7 @@ We also had crazy trouble setting up the ESP-8266, and getting wireless communic
 
 ![Wiring diagram for the Arduino hardware.](wiring.png "Wiring diagram for the Arduino hardware.")
 
-#### Takeaways :bulb:
+#### Hardware Takeaways :bulb:
 1. **Hardware is hard, so do less.** While in software it may be easy to program three sensors that all inherit the "sensor" interface, it isn't as easy to scale up in hardware projects. If it can be done easily, do it easily.
 
 By only using the distance sensor in hardware, we could calculate the acceleration by taking the derivative. No need for an accelerometer! We could also count reps and sets based on how high or low 4Gains moved up and down the weight stack. Do not make things more complicated than they need to be, especially on the hardware side of things.
@@ -80,7 +80,7 @@ Unfortunately, I coded what is likely the weakest link in the program. However, 
 A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
 ```
 
-#### Takeaways 
+#### Backend Takeaways
 1. **Do research before you design your system.** At Waterloo, we're lucky to have access to a ton of human capital, mainly engineers that do hardware frequently (not us). We should have asked them what the best way to get data from an Arduino to a database was. We dived into building after just doing some Google searching, where we concluded that since we can't read straight from the Arduino serial monitor without using PuTTy, the best option must be uploading to a web server and parsing the text. Our solution is really like trying to pour water from a shower to an anthromorphic alligator through a bunch of complicated pipes, and hoping nothing leaks.
 
 ![Where's My Water gameplay.](pipes.jpg "Where's My Water gameplay, photo from https://games.lol/blog/wheres-my-water-2-beginners-guide/")
