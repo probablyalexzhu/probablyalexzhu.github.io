@@ -11,4 +11,4 @@ About Me
 
 I write about projects that I'm working on, as well as self-reflective thoughts and other topics I find interesting. Check out some of my articles below!
 
-![A stylised photograph of a purple squid on a pink backdrop.](lake.jpg "Lake of Bays, 2022. A photo I took in the summer before university")
+![Lake of Bays, 2022. A photo I took in the summer before university with me as duck edited in.](lake.jpg "Lake of Bays, 2022. A photo I took in the summer before university")

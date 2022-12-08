@@ -1,6 +1,6 @@
 ---
 title: "Why We Should Be Together"
-tags: [thoughts, first post]
+tags: [thoughts, first post, motivations]
 date: 2022-12-04
 showDate: true
 showWordCount: true
@@ -13,6 +13,7 @@ showTableOfContents: false
 showComments: true
 showPagination: true
 invertPagination: true
+showTaxonomies: true
 
 draft: false
 ---
