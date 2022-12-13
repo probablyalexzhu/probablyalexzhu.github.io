@@ -54,13 +54,13 @@ git push -u origin main // sends the code to the main version of the code on Git
 #### Vacation Analogy to Understand What You Just Did :beach:
 
 Using the analogy of a vacation, imagine your computer is your local airport.
-- When you change directory, you choose what code luggage you want to take with you. :luggage:
-- When you initialize, you grab a new tray at the bag check-in. 🤏
-- When you add, you put your chosen code into the tray. 📥
-- When you commit, you put the tray with the code in it onto the conveyer belt and add a tag to explain the contents of the luggage. ⛓️
-- When you set the branch, you tell the check-in agent which luggage conveyer belt the code should be received on at the destination airport (e.g. the main one). 🛃
-- When you add a remote origin, you tell them what airport the luggage is going to. 🗼
-- Finally, when you push, you push the tray of code down the conveyer belt and it arrives at the remote destination! ✈️
+- When you *change directory*, you choose what code luggage you want to take with you. :luggage:
+- When you *initialize*, you grab a new tray at the bag check-in. 🤏
+- When you *add*, you put your chosen code into the tray. 📥
+- When you *commit*, you put the tray with the code in it onto the conveyer belt and add a tag to explain the contents of the luggage. ⛓️
+- When you set the *branch*, you tell the check-in agent which luggage conveyer belt the code should be received on at the destination airport (e.g. the main one). 🛃
+- When you *add* a *remote origin*, you tell them what airport the luggage is going to. 🗼
+- Finally, when you *push*, you push the tray of code down the conveyer belt and it arrives at the remote destination! ✈️
 
 ![Man loading luggage onto conveyer belt.](luggage.jpg "Man loading luggage onto conveyer belt with help of check-in agent. https://www.cathaypacific.com/cx/en_US/baggage.html")
 
