@@ -41,12 +41,12 @@ enableCodeCopy = false
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = false
   showWordCount = true
-  showComments = false
+  showComments = true
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
