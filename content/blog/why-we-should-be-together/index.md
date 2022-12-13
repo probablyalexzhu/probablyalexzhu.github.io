@@ -38,7 +38,7 @@ Please read: this is not about relationships. This is about why I want to blog, 
 
 ### My Blogging Goals 🚨
 
-Firstly, I want to consolidate my knowledge further by articulating and writing it a second time. As W. Edwards Deming said, "If you can't describe what you're doing as a process, then you don't know what you're doing." Throughout my journey, I want to make sure I'm storing what I've learned in my inventory so they can help me with whatever the current opportunity is. By blogging, I should be able to recall what I learned from my past experiences easier. Why not social media? It simply isn't a space catered for more formal thought or long ramblings, and you have little or control over your content.
+Firstly, I want to consolidate my knowledge further by articulating and writing it a second time. As W. Edwards Deming said, "If you can't describe what you're doing as a process, then you don't know what you're doing." Throughout my journey, I want to make sure I'm storing what I've learned in my inventory so they can help me with whatever the current opportunity is. By blogging, I should be able to recall what I learned from my past experiences easier. Why not social media? It simply isn't a space catered for more formal thought or long ramblings, and you have little or no control over your content.
 
 Secondly, In high school, I debated competitively almost every weekend. Even though I'm studying software, I still enjoy using my language skills (not programming languages) and I want to keep them sharp and put them to good use.
 
