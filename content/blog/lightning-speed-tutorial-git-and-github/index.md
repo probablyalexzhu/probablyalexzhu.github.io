@@ -26,9 +26,14 @@ Git (2005) and GitHub (2008) are not the same thing, but they are used together.
 
 ### 1. Download Git, Make GitHub Account 🙋‍♂️
 
-Download Git (free, open source, lightweight) for your computer here: https://git-scm.com/. The most important thing it will add is commands starting with the prefix "git" that you can type in your terminal. **Did you know the IDE Terminal (e.g. VSCode) and the Command Prompt are the same thing?**
+Download Git (free, open source, lightweight) for your computer here: https://git-scm.com/. The most important thing it will add is commands starting with the prefix "git" that you can type in your terminal. **Did you know the IDE Terminal (e.g. VSCode) and the Command Prompt are the same thing?** In a terminal, you will need to tell Git your credentials so it knows who is sending code before you begin any projects.
 
-Make a GitHub account at https://github.com/. You can customize everything at any time, but **do not make it indecent** as you will likely use this account for academics and work among other things.
+```C
+git config --global user.name "your name"
+git config --global user.email "username@example.com"
+```
+
+Make a GitHub account at https://github.com/. Ideally, the email you use for GitHub is the same as the email you use for Git. You can customize everything at any time, but **do not make it indecent** as you will likely use this account for academics and work among other things.
 
 ### 2. Make Your First Pair of Repositories 📦📦
  
