@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: How I Made This Website and You Can Too"
-tags: [projects, hugo, github pages, tutorial]
+tags: [projects, hugo, github pages, tutorials]
 date: 2022-12-08
 showDate: true
 showWordCount: true
