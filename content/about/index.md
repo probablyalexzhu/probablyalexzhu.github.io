@@ -13,7 +13,9 @@ showTableOfContents: false
 showComments: false
 showRecent: false
 ---
-**Hi! My name is Alex Zhu (he/him).** I'm studying Software Engineering at the University of Waterloo and will probably graduate as a member of the class of 2027.
+### Hi! My name is Alex Zhu (he/him).
+
+I'm studying Software Engineering at the University of Waterloo and will probably graduate as a member of the class of 2027.
 
 ![Polaroid picture of Alex Zhu reading something outside of Waterloo Campus Pizza.](pizza.jpg "Waterloo Campus Pizza, 2022")
 
@@ -29,3 +31,9 @@ At some point I became known online as *probablyalex* and **the duck you see pla
 - **and a Laptop Sticker Collector** (there's a method behind the madness I swear) :laptop:
 
 Who will I become in the future? *Only time will tell.*
+
+### Some Coding Jams
+
+{{< spotify type="track" id="5ZXhzut7bsbEDgcjXn4beH" width="100%" height="250" >}}
+{{< spotify type="track" id="2lN0R35eOsdqBnFaQ5k0rM" width="100%" height="250" >}}
+{{< spotify type="track" id="1cpANF6zMBoFoxkoIjZHjv" width="100%" height="250" >}}
