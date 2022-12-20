@@ -13,7 +13,7 @@ showTableOfContents: false
 showComments: false
 showRecent: false
 ---
-### Hi! My name is Alex Zhu (he/him).
+## Hi! My name is Alex Zhu (he/him).
 
 I'm studying Software Engineering at the University of Waterloo and will probably graduate as a member of the class of 2027.
 
@@ -32,7 +32,7 @@ At some point I became known online as *probablyalex* and **the duck you see pla
 
 Who will I become in the future? *Only time will tell.*
 
-### Some Coding Jams
+## Some Coding Jams
 {{< spotify type="track" id="5YTPRVC0gOXdD17IhOanqI" width="100%" height="250" >}}
 {{< spotify type="track" id="2lN0R35eOsdqBnFaQ5k0rM" width="100%" height="250" >}}
 {{< spotify type="track" id="5PuXY3cXsr70l0K6oFhm4f" width="100%" height="250" >}}

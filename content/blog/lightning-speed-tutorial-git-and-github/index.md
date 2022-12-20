@@ -24,7 +24,7 @@ Git (2005) and GitHub (2008) are not the same thing, but they are used together.
 
 ![Git and GitHub logos.](thumb.jpg "Git and GitHub logos.")
 
-### 1. Download Git, Make GitHub Account 🙋‍♂️
+## 1. Download Git, Make GitHub Account 🙋‍♂️
 
 Download Git (free, open source, lightweight) for your computer here: https://git-scm.com/. The most important thing it will add is commands starting with the prefix "git" that you can type in your terminal. **Did you know the IDE Terminal (e.g. VSCode) and the Command Prompt are the same thing?** In a terminal, you will need to tell Git your credentials so it knows who is sending code before you begin any projects.
 
@@ -35,13 +35,13 @@ git config --global user.email "username@example.com"
 
 Make a GitHub account at https://github.com/. Ideally, the email you use for GitHub is the same as the email you use for Git. You can customize everything at any time, but **do not make it indecent** as you will likely use this account for academics and work among other things.
 
-### 2. Make Your First Pair of Repositories 📦📦
+## 2. Make Your First Pair of Repositories 📦📦
  
 **A repository is a location where data is stored.** You will make **two** repositories, so two places where your data will live simultaneously, one **local** on your computer and one **remote** on GitHub. On your computer, a repository is just a folder that you put files inside of. On GitHub, you create a new repository from your homepage as such.
 
 ![Make a new repository.](newrepo.png "Make a new repository.")
 
-### 3. Commit Your First Code 👩‍💻
+## 3. Commit Your First Code 👩‍💻
 
 After you write some code in your local folder, you want to send it to your remote repository so that it matches. You can do this in terminal (either Command Prompt's or editor's with the following commands. **For your first time, follow the code below.** The comments provide a technical understanding, you don't need to type them:
 
@@ -56,7 +56,7 @@ git remote add origin 'URL' // sets destination of code to remote repository at 
 git push -u origin main // sends the code to the main version of the code on GitHub. Done!
 ```
 
-#### Vacation Analogy to Understand What You Just Did :beach:
+### Vacation Analogy to Understand What You Just Did :beach:
 
 Using the analogy of a vacation, imagine your computer is your local airport.
 - When you *change directory*, you choose what code luggage you want to take with you. :luggage:
@@ -69,7 +69,7 @@ Using the analogy of a vacation, imagine your computer is your local airport.
 
 ![Man loading luggage onto conveyer belt.](luggage.jpg "Man loading luggage onto conveyer belt with help of check-in agent. https://www.cathaypacific.com/cx/en_US/baggage.html")
 
-### 4. All Done! Future Use 🔮
+## 4. All Done! Future Use 🔮
 
 Now any time you edit your code locally, the airport agent already knows where your code has to go, so all you have to do is:
 
