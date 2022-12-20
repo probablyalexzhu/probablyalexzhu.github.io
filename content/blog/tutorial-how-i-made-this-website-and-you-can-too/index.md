@@ -15,7 +15,7 @@ showPagination: true
 invertPagination: true
 showTaxonomies: true
 
-draft: false
+draft: true
 ---
 
 I wanted a simple blog website that was easy to set up and use, and also one where I had ownership and customization: the answer was a Hugo generated static site hosted on GitHub Pages. In this post, I will explain how I set it all up, some challenges I ran into, and how you can set up your own website like this one! 
