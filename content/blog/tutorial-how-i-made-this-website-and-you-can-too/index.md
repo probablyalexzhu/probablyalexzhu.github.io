@@ -27,7 +27,7 @@ I wanted a simple blog website that was easy to set up and use, and also one whe
 2. Downloading and Using Hugo
 3. How to Learn Hugo and Use the Docs
 4. Pushing to Github and creating a Github Pages Website
-5. Bonus: Comments System (link to other article)
+5. Bonus: Comments System
 
 ## 1. High Level Overview
 
