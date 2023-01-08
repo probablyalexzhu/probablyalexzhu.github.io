@@ -24,7 +24,6 @@ In university, the curriculum is more difficult than in high school. The testing
 
 ![2022 Winter 1A Engineering Exam in PAC.](exam.jpg "If you don't truly understand, you'll regret it when you're writing your exams. 😬")
 
-
 Make sure that you understand content for real, not just memorize how to do things. Try **explaining concepts to others in many perspectives**, like understanding the cross product visually and algebraically.
 
 To learn more, I suggest reading Waterloo Professor Dan Wolczuk's excellent learning resources: http://wolczuk.com/learning.html. I also suggest watching this video by competitive programmer Colin Galen:
@@ -40,7 +39,7 @@ Some people suggest a "dopamine detox" to make you more interested in more borin
 Cut low-value distractions from your life and replace them with high-priority activities.
 {{< /alert >}}
 
-Instead, it’s better to **replace** bad habits with things that give you more bang for your buck. Instead of looking forward to scrolling social media, look forward to your next intramural, club meeting, or friend hangout. Enjoy life to its max!
+Instead, it’s better to **replace** bad habits with things that give you more bang for your buck. Instead of looking forward to scrolling social media, look forward to your next study session (the actual act of studying, not a reward you get for studying), intramural, or friend hangout. Enjoy life to its max!
 
 You can learn more on this perspective from YouTuber Sisyphus 55's video:
 {{< youtube "tkocE0QYnpk" >}}
