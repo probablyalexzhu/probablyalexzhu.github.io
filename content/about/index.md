@@ -19,7 +19,7 @@ I'm studying Software Engineering at the University of Waterloo and will probabl
 
 ![Polaroid picture of Alex Zhu reading something outside of Waterloo Campus Pizza.](pizza.jpg "Waterloo Campus Pizza, 2022")
 
-I grew up in the Ontario GTA, doing a large variety of things like playing tennis, running a YouTube channel, making podcasts and music, debating competitively, and playing video games a bit too competitively.
+I grew up in the Ontario GTA, doing a large variety of things like playing tennis, running a YouTube channel, making podcasts and music, and debating competitively.
 
 At some point I became known online as *probablyalex* and **the duck you see plastered across this website**. Later down the line I decided to study software. Right now, I consider myself to be a:
 - **Frisbee Player** (intramurals) :flying_disc:
@@ -32,7 +32,7 @@ At some point I became known online as *probablyalex* and **the duck you see pla
 
 Who will I become in the future? *Only time will tell.*
 
-## Some Coding Jams
-{{< spotify type="track" id="5YTPRVC0gOXdD17IhOanqI" width="100%" height="250" >}}
-{{< spotify type="track" id="2lN0R35eOsdqBnFaQ5k0rM" width="100%" height="250" >}}
-{{< spotify type="track" id="5PuXY3cXsr70l0K6oFhm4f" width="100%" height="250" >}}
+## Latest Coding Jams
+{{< spotify type="track" id="5RrJCusmR1J54b5ivqdWIu" width="100%" height="250" >}}
+{{< spotify type="track" id="4CGD8VQknS8OdVTjSUvZA5" width="100%" height="250" >}}
+{{< spotify type="track" id="1rOKAsJZJDIikOKDeUfPRV" width="100%" height="250" >}}
