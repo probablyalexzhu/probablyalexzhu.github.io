@@ -2,7 +2,7 @@
 title: "What I Learned From My First Term at UWaterloo"
 tags: [thoughts, waterloo, software engineering, studying, dopamine]
 date: 2023-01-06
-showDate: true
+showDate: false
 showWordCount: true
 showReadingTime: true
 

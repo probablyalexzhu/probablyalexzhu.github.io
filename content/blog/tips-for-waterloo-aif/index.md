@@ -2,7 +2,7 @@
 title: "Three Golden Tips for the Waterloo AIF"
 tags: [thoughts, waterloo, software engineering, AIF, high school]
 date: 2023-01-07
-showDate: true
+showDate: false
 showWordCount: true
 showReadingTime: true
 

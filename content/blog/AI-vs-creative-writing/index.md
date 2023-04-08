@@ -2,7 +2,7 @@
 title: "AI vs Creative Writing"
 tags: [thoughts, writing, AI]
 date: 2023-04-07
-showDate: true
+showDate: false
 showWordCount: true
 showReadingTime: true
 

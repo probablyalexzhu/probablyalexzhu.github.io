@@ -2,7 +2,7 @@
 title: "Why We Should Be Together"
 tags: [thoughts, first post, motivations]
 date: 2022-12-04
-showDate: true
+showDate: false
 showWordCount: true
 showReadingTime: true
 
