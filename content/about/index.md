@@ -23,11 +23,7 @@ I grew up in the Ontario GTA, doing a large variety of things like playing tenni
 
 At some point I became known online as *probablyalex* and **the duck you see plastered across this website**. Later down the line I decided to study software. Right now, I consider myself to be a:
 - **Frisbee Player** (intramurals) :flying_disc:
-- **Debater** (probably will be one for life) 🗣️
-- **Skateboarder** (navy blue pennyboard for nearly a decade) :skateboard:
-- **Sci-Fi Fan** (Star Wars: Andor was an incredible feat of filmmaking) 🌌
-- **Leafs Fan** (they just keep giving me hope every year) :hockey:
-- **Casual Rapper and Producer** (somewhere hidden in the deep depths of SoundCloud rap) :microphone:
+- **Debater** (varsity) 🗣️
 - **and a Laptop Sticker Collector** (there's a method behind the madness I swear) :laptop:
 
 Who will I become in the future? *Only time will tell.*
