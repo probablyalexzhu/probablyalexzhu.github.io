@@ -15,15 +15,15 @@ showRecent: false
 ---
 ## Hi! My name is Alex Zhu (he/him).
 
-I'm studying Software Engineering at the University of Waterloo and will probably graduate as a member of the class of 2027.
+Hello! I’m a Software Engineering student at UWaterloo. I like to think of myself as a coder and communicator: my goal is to lead driven teams to solve real-world issues through technology.
 
 ![Polaroid picture of Alex Zhu reading something outside of Waterloo Campus Pizza.](pizza.jpg "Waterloo Campus Pizza, 2022")
 
 I grew up in the Ontario GTA, doing a large variety of things like playing tennis, running a YouTube channel, making podcasts and music, and debating competitively.
 
 At some point I became known online as *probablyalex* and **the duck you see plastered across this website**. Later down the line I decided to study software. Right now, I consider myself to be a:
-- **Frisbee Player** (intramurals) :flying_disc:
-- **Debater** (varsity) 🗣️
+- **Varsity Debater** 🗣️
+- **Intramural Frisbee Player** :flying_disc:
 - **and a Laptop Sticker Collector** (there's a method behind the madness I swear) :laptop:
 
 Who will I become in the future? *Only time will tell.*
