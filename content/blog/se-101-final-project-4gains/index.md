@@ -46,7 +46,7 @@ We also had crazy trouble setting up the ESP-8266, and getting wireless communic
 
 By only using the distance sensor in hardware, we could calculate the acceleration by taking the derivative. No need for an accelerometer! We could also count reps and sets based on how high or low 4Gains moved up and down the weight stack. Do not make things more complicated than they need to be, especially on the hardware side of things.
 
-2. **Integrate first.** Write shitty versions of your code and make sure all of it works together; hardware, backend, and frontend. This ensures that your final project will actually work. But on top of that, it means you can test way faster.
+2. **Integrate first.** Write crappy versions of your code and make sure all of it works together; hardware, backend, and frontend. This ensures that your final project will actually work. But on top of that, it means you can test way faster.
 
 After we had Wi-Fi connection working (mostly), we eventually started testing the hardware code without connecting to Wi-Fi every time. This saved us lots of time when coding the rest of the hardware, such as the LED response and detecting when the user is done a set (see below).
 
