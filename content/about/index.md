@@ -19,16 +19,11 @@ Hello! I’m a Software Engineering student at UWaterloo. I like to think of mys
 
 ![Polaroid picture of Alex Zhu reading something outside of Waterloo Campus Pizza.](pizza.jpg "Waterloo Campus Pizza, 2022")
 
-I grew up in the Ontario GTA, doing a large variety of things like playing tennis, running a YouTube channel, making podcasts and music, and debating competitively.
+I grew up in the Greater Toronto Area, doing a large variety of things like running a YouTube channel, making podcasts, and debating competitively. At some point I became known online as the name *probablyalex* and the duck avatar you see plastered across this website. Eventually, I decided to study software to further pursue my interests.
 
-At some point I became known online as *probablyalex* and **the duck you see plastered across this website**. Later down the line I decided to study software. Right now, I consider myself to be a:
-- **Varsity Debater** 🗣️
-- **Intramural Frisbee Player** :flying_disc:
-- **and a Laptop Sticker Collector** (there's a method behind the madness I swear) :laptop:
+In my free time I like to debate, play tennis and frisbee, make music and learn to cook. 👨‍🍳
 
-Who will I become in the future? *Only time will tell.*
-
-## Latest Coding Jams
-{{< spotify type="track" id="5RrJCusmR1J54b5ivqdWIu" width="100%" height="250" >}}
-{{< spotify type="track" id="4CGD8VQknS8OdVTjSUvZA5" width="100%" height="250" >}}
-{{< spotify type="track" id="1rOKAsJZJDIikOKDeUfPRV" width="100%" height="250" >}}
+## Latest Coding Jams 🎧
+{{< spotify type="track" id="68HocO7fx9z0MgDU0ZPHro" width="100%" height="250" >}}
+{{< spotify type="track" id="5F1TZVziCp4TuXIMCsIxwM" width="100%" height="250" >}}
+{{< spotify type="track" id="6fzio74FGqFFsenYkbGPzR" width="100%" height="250" >}}
