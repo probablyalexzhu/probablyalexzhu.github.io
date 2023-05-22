@@ -15,15 +15,13 @@ showRecent: false
 ---
 ## Hi! My name is Alex Zhu (he/him).
 
-Hello! I’m a Software Engineering student at UWaterloo. I like to think of myself as a coder and communicator: my goal is to lead driven teams to solve real-world issues through technology.
+I’m a **Software Engineering** student at the University of Waterloo. I like to think of myself as a **coder** and **communicator**: my goal is to lead driven teams to solve real-world issues through technology.
 
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
-I grew up in the Greater Toronto Area, doing a large variety of things like running a YouTube channel, making podcasts, and debating competitively. At some point I became known online as the name *probablyalex* and the duck avatar you see plastered across this website. Eventually, I decided to study software to further pursue my interests.
-
-In my free time I like to debate, play tennis and frisbee, and make music.
+I care about doing meaningful, ethical work for the world. Other than coding, I love talking about philosophy and the environment. In my free time, I like to debate, play tennis and frisbee, and make music. Feel free to reach out on LinkedIn!
 
 ## Latest Coding Jams 🎧
-{{< spotify type="track" id="68HocO7fx9z0MgDU0ZPHro" width="100%" height="250" >}}
-{{< spotify type="track" id="5F1TZVziCp4TuXIMCsIxwM" width="100%" height="250" >}}
-{{< spotify type="track" id="6fzio74FGqFFsenYkbGPzR" width="100%" height="250" >}}
+{{< spotify type="track" id="68HocO7fx9z0MgDU0ZPHro" width="100%" height="100" >}}
+{{< spotify type="track" id="5F1TZVziCp4TuXIMCsIxwM" width="100%" height="100" >}}
+{{< spotify type="track" id="6nICBdDevG4NZysIqDFPEa" width="100%" height="100" >}}

@@ -1,5 +1,5 @@
 ---
-title: "AI vs Creative Writing"
+title: "AI vs. Creative Writing"
 tags: [thoughts, writing, AI]
 date: 2023-04-07
 showDate: false
@@ -20,7 +20,7 @@ draft: false
 
 While I was writing a Facebook post introducing my friend David as director of a debate tournament, I started thinking about the creative writing process and whether AI would be able to do it or not. How good is AI at creative writing, and how might it improve in the future?
 
-![OpenAI logo.](thumb.jpg)
+![AI vs. Creative Writing.](thumb.jpg "AI vs. Creative Writing, illustrated.")
 
 ## What is ChatGPT? 🤖
 ChatGPT is the current leading AI product that has people talking. It is a large language model (LLM) and generative pretrained transformer, which means that it has been trained on a massive dataset from the internet to transform data into text. You can give it prompts, and it will synthesize text to answer your requests. People have been asking ChatGPT to write poems, emails, speeches, and more.

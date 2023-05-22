@@ -18,8 +18,8 @@ dateFormat = "January 2, 2006"
   headline = "UWaterloo Software Engineering '27"
   bio = "Hello! I'm a UWaterloo SE '27 student writing to share my ideas with you."
   links = [
-   { email = "mailto:za.alexzhu@gmail.com" },
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
+   { email = "mailto:za.alexzhu@gmail.com" },
    { github = "https://github.com/probablyalexzhu" }
   ]
   #   { link = "https://link-to-some-website.com/" },
