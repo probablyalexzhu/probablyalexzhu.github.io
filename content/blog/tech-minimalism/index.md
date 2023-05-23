@@ -1,7 +1,7 @@
 ---
 title: "Tech Minimalism"
 tags: [thoughts, tech minimalism, motivations, studying, tutorials]
-date: 2023-05-22
+date: 2023-05-23
 showDate: false
 showWordCount: true
 showReadingTime: true
@@ -15,15 +15,11 @@ showPagination: true
 invertPagination: true
 showTaxonomies: true
 
-draft: true
+draft: false
 ---
 
-Please read
+Coming soon!
 
 ![text.](thumb.jpg "text")
 
 ## Who? 👨‍💻
-
-grew up
-
-## Why? :thinking:
