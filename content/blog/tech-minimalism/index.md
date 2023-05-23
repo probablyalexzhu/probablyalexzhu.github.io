@@ -15,7 +15,7 @@ showPagination: true
 invertPagination: true
 showTaxonomies: true
 
-draft: false
+draft: true
 ---
 
 Coming soon!
