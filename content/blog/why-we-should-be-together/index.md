@@ -26,15 +26,15 @@ Please read: this is not about relationships. This is about why I want to blog, 
 
 **I'm Alex Zhu, a software engineering student in SE '27 at UWaterloo.** I grew up in the Ontario GTA and did a variety of activities, never settling on one thing. Random fact, but this isn't my first blog. The first blog I wrote for was on the website I made for my Clash of Clans clan, Derp Kingdom, during my childhood. This blog is one of my latest projects that I want to put a significant chunk of time into.
 
-**I hope to write for you, fellow peers and journeyers in the tech field.** But hopefully I never meet you in real life, because then I would have a lot of explaining to do about this website.
+**But this blog is really about you. I hope to write for you, fellow peers and journeyers in the tech field.**
 
 ## Why? :thinking:
 
-**I want to teach others.** I don't have a lot to share, but if we all share the little that we know, the world would be quite a bit better. Every person who replies on StackOverflow is someone's GOAT. I hope my posts can provide the tiniest glimpse into my mind, and maybe something in there provides some value to you. I really want to hear from you! If you ever have beef with any of my ideas, feel free to send me an email and I'll probably reply, and I'll also try to get comments set up on here.
+**I want to teach others.** I don't have a lot to share, but if we all share the little that we know, the world would be quite a bit better. Every person who replies on StackOverflow is someone's GOAT. I hope my posts can provide the tiniest glimpses of insight, and maybe something that provides some value to you. I really want to hear from you! If you ever have questions about any of my ideas, feel free to leave a comment.
 
 ## What? 👨‍🎓
 
-**I plan on blogging about my thoughts on life related to self-improvement and projects I work on as a software engineering student.** I feel like a lot of stuff goes on up here, and I'm dying to share some of it with others. No guarantees that it'll be any good for you, but a new perspective can never hurt. In terms of projects, there's a real joy in creating cool things, and a very real urge to show as many people as possible what you've created. I plan on making a post at least once every two weeks, but updating is likely to be erratic and based on the ebbs and flows of writing inspiration.
+**I plan on blogging about my thoughts on life related to self-improvement and projects I work on as a software engineering student.** No guarantees that it'll be any good for you, but a new perspective can never hurt. In terms of projects, there's a real joy in creating cool things, and a very real urge to show as many people as possible what you've created. As a result of my motivations, updating this blog is likely to be erratic and based on the ebbs and flows of writing inspiration.
 
 ## My Blogging Goals 🚨
 
@@ -42,7 +42,7 @@ Firstly, I want to consolidate my knowledge further by articulating and writing 
 
 Secondly, In high school, I debated competitively almost every weekend. Even though I'm studying software, I still enjoy using my language skills (not programming languages) and I want to keep them sharp and put them to good use.
 
-I'm hoping that in half a year, there will be a wealth of ideas and a small community built around this website that enriches everyone's lives. The internet can do great things for people, and many of them start at a grassroots level like here.
+I'm hoping that in half a year, there will be a wealth of ideas and a small community built around this website that enriches everyone's lives. The internet can do great things for people, and many of them start at a grassroots level like down here.
 
 ## Final Words ✍️
 

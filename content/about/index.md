@@ -19,7 +19,7 @@ I’m a **Software Engineering** student at the University of Waterloo. I like t
 
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
-I care about doing meaningful, ethical work for the world. Other than coding, I love talking about philosophy and the environment. In my free time, I like to debate, play tennis and frisbee, and make music. Feel free to reach out on LinkedIn!
+I care about doing meaningful, ethical work for the world. Other than coding, I love discussing philosophy and the environment. In my free time, I like to debate, play tennis and frisbee, and make music. Feel free to reach out on LinkedIn!
 
 ## Latest Coding Jams 🎧
 {{< spotify type="track" id="68HocO7fx9z0MgDU0ZPHro" width="100%" height="100" >}}
