@@ -24,6 +24,6 @@ Please read
 
 ## Who? 👨‍💻
 
-grew up in the Ontario GTA and did a variety of activities, never settling on one thing
+grew up
 
 ## Why? :thinking:
