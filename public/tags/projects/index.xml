@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on Alex Zhu</title>
+    <link>https://probablyalexzhu.github.io/tags/projects/</link>
+    <description>Recent content in projects on Alex Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B2 Stock Trader</title>
+      <link>https://probablyalexzhu.github.io/blog/b2-stock-trader/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/b2-stock-trader/</guid>
+      <description>Alternative Data Trading using Python, Google Trends, NYT Articles, and Cohere (Co-authored by co-creator Ryan Shen)</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: How I Made This Website and You Can Too</title>
+      <link>https://probablyalexzhu.github.io/blog/tutorial-how-i-made-this-website-and-you-can-too/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/tutorial-how-i-made-this-website-and-you-can-too/</guid>
+      <description>I wanted a simple blog website that was easy to set up and use, and also one where I had ownership and customization: the answer was a Hugo static site hosted on GitHub Pages.</description>
+    </item>
+    
+    <item>
+      <title>SE 101 Final Project: Full Stack Arduino Exercise Tracker (4Gains)</title>
+      <link>https://probablyalexzhu.github.io/blog/se-101-final-project-4gains/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/se-101-final-project-4gains/</guid>
+      <description>Our final project for SE101 was supposed to be a exercise tracker device that would revolutionize the fitness experience.</description>
+    </item>
+    
+    <item>
+      <title>Radomir Chess: Grade 12 Summative</title>
+      <link>https://probablyalexzhu.github.io/blog/radomir-chess-grade-12-summative/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/radomir-chess-grade-12-summative/</guid>
+      <description>This is the Readme file from our Grade 12 summative project.</description>
+    </item>
+    
+  </channel>
+</rss>

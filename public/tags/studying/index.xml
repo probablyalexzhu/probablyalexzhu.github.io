@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>studying on Alex Zhu</title>
+    <link>https://probablyalexzhu.github.io/tags/studying/</link>
+    <description>Recent content in studying on Alex Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/studying/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Minimalism</title>
+      <link>https://probablyalexzhu.github.io/blog/tech-minimalism/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/tech-minimalism/</guid>
+      <description>Coming soon!</description>
+    </item>
+    
+    <item>
+      <title>What I Learned From My First Term at UWaterloo</title>
+      <link>https://probablyalexzhu.github.io/blog/tips-first-term-waterloo/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/tips-first-term-waterloo/</guid>
+      <description>This is what I learned about studying and lifestyle during my first study term in Software Engineering at Waterloo!</description>
+    </item>
+    
+  </channel>
+</rss>

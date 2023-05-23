@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Alex Zhu</title>
+    <link>https://probablyalexzhu.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Alex Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: How I Made This Website and You Can Too</title>
+      <link>https://probablyalexzhu.github.io/blog/tutorial-how-i-made-this-website-and-you-can-too/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/tutorial-how-i-made-this-website-and-you-can-too/</guid>
+      <description>I wanted a simple blog website that was easy to set up and use, and also one where I had ownership and customization: the answer was a Hugo static site hosted on GitHub Pages.</description>
+    </item>
+    
+  </channel>
+</rss>
