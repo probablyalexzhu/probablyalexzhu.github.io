@@ -40,7 +40,7 @@ If you haven't yet, make sure to read [A Case for Digital Minimalism]({{< ref "/
 ### 8. Black and White ⬛⬜
 - Putting your phone on black and white mode makes media less interesting, and thus you are less likely to waste time on it. You can do this in the accessibility settings of the iPhone, and in the settings of any other phone too.
 ### 9. Turn It Off 📴
-- Turn your phone off unless you need to use it. If possible, put distractions far away from you, such as away in your bag.
+- Turn your phone off unless you really need to use it. If possible, put distractions far away from you, such as away in your bag.
 ### 10. Low Data Plans 📶
 - Get low data plans so that when you are out and about without Wi-Fi, it becomes literally impossible to waste time online.
 

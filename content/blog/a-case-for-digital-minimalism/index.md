@@ -18,7 +18,7 @@ showTaxonomies: true
 draft: false
 ---
 
-A while ago, I was reading *The Anthropocene Reviewed* by John Green, and came across this footnote:
+A while ago, I was reading *The Anthropocene Reviewed* by John Green, and came across this footnote.
 
 ![It occurs to me that technology often brags about solving problems it created.](quote.png "It occurs to me that technology often brags about solving problems it created.")
 
