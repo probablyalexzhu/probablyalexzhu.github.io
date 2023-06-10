@@ -34,7 +34,7 @@ If you haven't yet, make sure to read [A Case for Digital Minimalism]({{< ref "/
 - Delete social media accounts and refrain from creating new ones. You won't really miss anything; your friends will probably tell you about anything worth knowing about.
 - If you need to message people, give them your number or limit messages to platforms only for messaging, like Discord.
 ### 6. Find IRL Alternatives 🦗
-- Use a paper planner, plan in-person hangouts, study in the library. Fill up your life so you have less time to waste on passive media consumption.
+- Use a paper planner, plan in-person hangouts, study in the library, read a book. Fill up your life so you have less time to waste on passive media consumption.
 ### 7. Airplane Mode ✈️
 - Put your phone on airplane mode when you don't want to use it, such as during the school or work day.
 ### 8. Black and White ⬛⬜
