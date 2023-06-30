@@ -23,5 +23,5 @@ I care about doing meaningful, ethical work for the world. Other than coding, I 
 
 ## Latest Coding Jams 🎧
 {{< spotify type="track" id="68HocO7fx9z0MgDU0ZPHro" width="100%" height="100" >}}
-{{< spotify type="track" id="5F1TZVziCp4TuXIMCsIxwM" width="100%" height="100" >}}
+{{< spotify type="track" id="3Ljy7wv8En9a4dteSEI8Qx" width="100%" height="100" >}}
 {{< spotify type="track" id="6nICBdDevG4NZysIqDFPEa" width="100%" height="100" >}}
