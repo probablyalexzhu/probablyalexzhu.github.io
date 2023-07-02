@@ -17,7 +17,7 @@ showTaxonomies: true
 
 draft: true
 ---
-Project based learning is one of the most enjoyable and effective ways to learn new skills. You get to develop something that you’re interested in, and the work is just challenging enough at the edge of your abilities to be fully engaging. Here’s how I learned full-stack dev by making a project.
+Project-based learning is one of the most enjoyable and effective ways to learn new skills. You get to develop something that you’re interested in, and the work is just challenging enough at the edge of your abilities to be fully engaging. Here’s how I learned full-stack dev by making a project.
 
 1. Figuring out what to make
 
