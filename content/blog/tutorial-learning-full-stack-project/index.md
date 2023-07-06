@@ -30,7 +30,7 @@ I wanted to learn front-end development, specifically React, and how to work wit
 
 To turn these skills I wanted to learn into a project, I could have worked on a stock project like a to-do list or notes app. However, this would a) not be fun because I don’t care about making another notes app, and b) look unimpressive because you could easily copy existing code to make something stock.
 
-Instead, I thought about what I wanted to make. I suck at remembering and deciding what to give people as gifts, so I designed a gift tracker to help people plan and think of gifts to give. This idea already exists, but the few apps that execute it are not very notable.
+Instead, I thought about what I wanted to make. **I suck at remembering and deciding what to give people as gifts, so I designed a gift tracker to help people plan and think of gifts to give.** I named the app Giftlax, and its icon is a little Snorlax holding a gift 🥺! This idea already exists, but the few apps that execute it are not very notable.
 
 {{< alert "circle-info" >}}
 **Ultimately, the most crucial thing with project ideas is that you ideate it yourself and create it yourself, even if it already exists in some form.**
