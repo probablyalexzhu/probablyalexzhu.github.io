@@ -20,7 +20,8 @@ dateFormat = "January 2, 2006"
   links = [
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
    { email = "mailto:za.alexzhu@gmail.com" },
-   { github = "https://github.com/probablyalexzhu" }
+   { github = "https://github.com/probablyalexzhu" },
+   { logo_b = "https://se-webring.xyz" }
   ]
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
