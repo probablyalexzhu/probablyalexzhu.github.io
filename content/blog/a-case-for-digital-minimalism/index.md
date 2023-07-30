@@ -36,4 +36,6 @@ So to be happier, we need to win back our attention spans from parasitic  distra
 
 {{< youtube "6FlMhxOqiIg" >}}
 
+Edit July 30, 2023: Having now read Digital Minimalism by Cal Newport, I highly recommend his book and considering the ideas in it. Part of what he says is that "quick fixes" only stick long-term if they're part of a broader philosophy that justifies the fixes being done, so make sure to understand exactly why you're taking specific actions.
+
 My next post will be [Ten Tips for Digital Minimalism to Win Back Your Attention]({{< ref "/ten-tips-for-digital-minimalism" >}} "Ten Tips for Digital Minimalism to Win Back Your Attention"). 
