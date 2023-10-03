@@ -2,7 +2,7 @@
 title: "B2 Stock Trader"
 tags: [projects, quantitative finance, data scraping, data processing]
 date: 2023-01-08
-showDate: false
+showDate: true
 showWordCount: false
 showReadingTime: false
 

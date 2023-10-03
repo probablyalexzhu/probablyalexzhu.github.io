@@ -2,7 +2,7 @@
 title: "Radomir Chess: Grade 12 Summative"
 tags: [projects, java, swing, networking]
 date: 2022-01-30
-showDate: false
+showDate: true
 showWordCount: true
 showReadingTime: true
 

@@ -2,7 +2,7 @@
 title: "Ten Tips for Digital Minimalism to Win Back Your Attention"
 tags: [digital minimalism, tutorials, studying]
 date: 2023-06-08
-showDate: false
+showDate: true
 showWordCount: true
 showReadingTime: true
 

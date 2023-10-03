@@ -2,7 +2,7 @@
 title: "A Case for Digital Minimalism"
 tags: [thoughts, digital minimalism]
 date: 2023-06-07
-showDate: false
+showDate: true
 showWordCount: true
 showReadingTime: true
 

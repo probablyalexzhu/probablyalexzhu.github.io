@@ -2,7 +2,7 @@
 title: "Lightning Speed Tutorial: Git and GitHub"
 tags: [tutorials, git, github]
 date: 2022-12-13
-showDate: false
+showDate: true
 showWordCount: true
 showReadingTime: true
 

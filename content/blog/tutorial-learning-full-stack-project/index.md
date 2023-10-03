@@ -2,7 +2,7 @@
 title: "Tutorial: Learning Full-Stack Development With a Project"
 tags: [projects, react, pocketbase, fullstack, tutorials]
 date: 2023-06-30
-showDate: false
+showDate: true
 showWordCount: true
 showReadingTime: true
 
