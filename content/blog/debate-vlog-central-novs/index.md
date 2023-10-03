@@ -22,4 +22,4 @@ draft: false
 
 Last weekend, The UW Debate Society went to McGill Canadian Central Novice Championship 2023 and had a great time! When I woke up at 5 AM for the tournameent, I thought to myself "vlogging this trip would be cool", and so now this video exists. I had a great time filming it and tapping into my video production skills, and I hope you enjoy this inside look at how debate tournaments work.
 
-Please share w/ others, like, and subscribe to UW Debate Society!
+Please share w/ others, like, and subscribe to UW Debating Society!
