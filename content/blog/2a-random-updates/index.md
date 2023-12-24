@@ -26,7 +26,7 @@ Hi everyone, I haven’t written a blog in a while so I thought I would do a qui
 
 ## Debating 🗣️
 
-I’ve invested a lot more time this term into debating, having competed at four tournaments and judged/tabbed at two, with WUDC yet to come. Debating took me on trips to universities across Canada and now across the world; it’s like being Ikigai’d every other weekend to an alternate, non-Waterloo reality. I was worried that spending so much time debating would harm my grades, but I think it actually helped with work-life balance in the big picture (grades were fine — my average was safely over the magic number of 80 needed for opportunities like study abroad or research).
+I’ve invested a lot more time this term into debating, having competed at four tournaments and judged/tabbed at two, with WUDC yet to come. Debating took me on trips to universities across Canada and now across the world; it’s like being Isekai'd every other weekend to an alternate, non-Waterloo reality. I was worried that spending so much time debating would harm my grades, but I think it actually helped with work-life balance in the big picture (grades were fine — my average was safely over the magic number of 80 needed for opportunities like study abroad or research).
 
 ![Jumanah and I cooking at Toronto Open](jumanah.jpg "Jumanah and I cooking at Toronto Open")
 
