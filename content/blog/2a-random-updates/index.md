@@ -34,7 +34,7 @@ Additionally, returning to debate has been highly rewarding, just being able to 
 
 ## Content Creation 📹
 
-Filming the McGill Central Novs vlog was a highly rewarding reawakening of my creative side. I’ve done more music production and acquired a saxophone, but during my co-op term in Winter 2024, I plan on dedicating more time to content creation for Waterloo Debate as VP of Marketing. A friend and I are gonna go crazy on vlog and short-form content creation, as well as designing a new brand for the club and merch like crew necks + more stickers!
+Filming the McGill Central Novs vlog was a highly rewarding reawakening of my creative side. I’ve done more music production and acquired a saxophone, but during my co-op term in Winter 2024, I plan on dedicating more time to content creation for Waterloo Debate as VP of Marketing. A friend and I are gonna go crazy on vlog and short-form content creation (including right now on the WUDC trip!), as well as designing a new brand for the club and merch like crew necks + more stickers!
 
 ![Debate sticker in the style of subway on a friend's laptop](subway.jpg "Debate sticker in the style of subway on a friend's laptop")
 

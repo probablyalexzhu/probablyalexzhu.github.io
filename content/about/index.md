@@ -26,6 +26,6 @@ I’m a **Software Engineering** student at the University of Waterloo. I like t
 I care about doing meaningful, ethical work for the world. Other than coding, I love reading (philosophy, psychology, and sci-fi), competitive debating, tennis, and producing music. Feel free to reach out any way about anything!
 
 ## Latest Coding Jams 🎧
-{{< spotify type="track" id="3pD0f7hSJg2XdQ6udw5Tey" width="100%" height="100" >}}
-{{< spotify type="track" id="0CBCfeVshii6gGh9Qnl9TQ" width="100%" height="100" >}}
-{{< spotify type="track" id="01qFKNWq73UfEslI0GvumE" width="100%" height="100" >}}
+{{< spotify type="track" id="2xkCK64mVslpApVL7i6Mxj" width="100%" height="100" >}}
+{{< spotify type="track" id="2KslE17cAJNHTsI2MI0jb2" width="100%" height="100" >}}
+{{< spotify type="track" id="4kZgxSySjVSLRpegVw8SsX" width="100%" height="100" >}}
