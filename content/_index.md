@@ -9,4 +9,4 @@ Hello! Often when I have intriguing ideas, I capture them by writing them down. 
 About Me
 {{< /button >}}
 
-I post about my projects, personal experiences, technical tutorials, and the philosophy of technology. Check out some of my articles below!
+I post about my projects, personal experiences, technical tutorials, and the philosophy of technology. Check out some of my posts below!
