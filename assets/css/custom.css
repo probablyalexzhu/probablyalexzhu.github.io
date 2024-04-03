@@ -1,4 +1,6 @@
 /* Increase the default font size */
 html {
-    font-size: 12pt;
-  }
+  font-size: 14pt;
+  font-weight: 100;
+  font-family: "Poppins", "Inter", "Roboto", sans-serif;
+}
