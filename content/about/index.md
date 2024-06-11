@@ -26,7 +26,7 @@ I care about doing meaningful ethical work for the world. Other than coding, I l
 
 ## Latest Coding Jams 🎧
 {{< spotify type="track" id="5Ov63oXIHuflhMWAs6kG4f" width="100%" height="100" >}}
-{{< spotify type="track" id="3ISOK4T54v6O1g1AB8FiEK" width="100%" height="100" >}}
+{{< spotify type="track" id="7lG5m4JN0exualOkghSNXq" width="100%" height="100" >}}
 {{< spotify type="track" id="7fzHQizxTqy8wTXwlrgPQQ" width="100%" height="100" >}}
 {{< alert "comment" >}}
 A jack of all trades is a master of none, but often times better than a master of one.
