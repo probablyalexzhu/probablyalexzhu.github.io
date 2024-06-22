@@ -6,49 +6,139 @@
     <description>Recent content in Tags on Alex Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>motivations</title>
-      <link>https://probablyalexzhu.github.io/tags/motivations/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <title>project</title>
+      <link>https://probablyalexzhu.github.io/tags/project/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://probablyalexzhu.github.io/tags/motivations/</guid>
+      <guid>https://probablyalexzhu.github.io/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>studying</title>
-      <link>https://probablyalexzhu.github.io/tags/studying/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <title>debating</title>
+      <link>https://probablyalexzhu.github.io/tags/debating/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://probablyalexzhu.github.io/tags/studying/</guid>
+      <guid>https://probablyalexzhu.github.io/tags/debating/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tech minimalism</title>
-      <link>https://probablyalexzhu.github.io/tags/tech-minimalism/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <title>work</title>
+      <link>https://probablyalexzhu.github.io/tags/work/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://probablyalexzhu.github.io/tags/tech-minimalism/</guid>
+      <guid>https://probablyalexzhu.github.io/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debate</title>
+      <link>https://probablyalexzhu.github.io/tags/debate/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/debate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thoughts</title>
       <link>https://probablyalexzhu.github.io/tags/thoughts/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://probablyalexzhu.github.io/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>vlog</title>
+      <link>https://probablyalexzhu.github.io/tags/vlog/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/vlog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waterloo</title>
+      <link>https://probablyalexzhu.github.io/tags/waterloo/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/waterloo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about me</title>
+      <link>https://probablyalexzhu.github.io/tags/about-me/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/about-me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fullstack</title>
+      <link>https://probablyalexzhu.github.io/tags/fullstack/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/fullstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pocketbase</title>
+      <link>https://probablyalexzhu.github.io/tags/pocketbase/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/pocketbase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://probablyalexzhu.github.io/tags/projects/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://probablyalexzhu.github.io/tags/react/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tutorials</title>
       <link>https://probablyalexzhu.github.io/tags/tutorials/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://probablyalexzhu.github.io/tags/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital minimalism</title>
+      <link>https://probablyalexzhu.github.io/tags/digital-minimalism/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/digital-minimalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>studying</title>
+      <link>https://probablyalexzhu.github.io/tags/studying/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/studying/</guid>
       <description></description>
     </item>
     
@@ -89,15 +179,6 @@
     </item>
     
     <item>
-      <title>projects</title>
-      <link>https://probablyalexzhu.github.io/tags/projects/</link>
-      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://probablyalexzhu.github.io/tags/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>quantitative finance</title>
       <link>https://probablyalexzhu.github.io/tags/quantitative-finance/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
@@ -130,15 +211,6 @@
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://probablyalexzhu.github.io/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>waterloo</title>
-      <link>https://probablyalexzhu.github.io/tags/waterloo/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://probablyalexzhu.github.io/tags/waterloo/</guid>
       <description></description>
     </item>
     
@@ -215,20 +287,20 @@
     </item>
     
     <item>
-      <title>about me</title>
-      <link>https://probablyalexzhu.github.io/tags/about-me/</link>
-      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://probablyalexzhu.github.io/tags/about-me/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>first post</title>
       <link>https://probablyalexzhu.github.io/tags/first-post/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://probablyalexzhu.github.io/tags/first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivations</title>
+      <link>https://probablyalexzhu.github.io/tags/motivations/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/tags/motivations/</guid>
       <description></description>
     </item>
     

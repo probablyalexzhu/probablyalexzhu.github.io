@@ -6,7 +6,16 @@
     <description>Recent content in projects on Alex Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://probablyalexzhu.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: Learning Full-Stack Development With a Project</title>
+      <link>https://probablyalexzhu.github.io/blog/tutorial-learning-full-stack-project/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://probablyalexzhu.github.io/blog/tutorial-learning-full-stack-project/</guid>
+      <description>Project-based learning is one of the most enjoyable and effective ways to learn new skills.</description>
+    </item>
+    
     <item>
       <title>B2 Stock Trader</title>
       <link>https://probablyalexzhu.github.io/blog/b2-stock-trader/</link>
