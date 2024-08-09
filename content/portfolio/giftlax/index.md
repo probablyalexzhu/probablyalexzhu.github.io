@@ -8,7 +8,7 @@ showTaxonomies: true
 showSummary: true
 draft: false
 
-externalUrl: "https://giftlax.vercel.app/"
+externalUrl: "https://probablyalexzhu.github.io/blog/tutorial-learning-full-stack-project/"
 summary: "I'm forgetful when it comes to giving gifts :facepalm:, so I built and deployed a full-stack app that helps with gift-giving planning using SQLite database and REST API. Implemented React frontend secured with user authentication, calendar, live chat, and gift idea generator. Hosted website on Vercel using GitHub and database to Fly.io server using Docker image for seamless scaling"
 _build:
   render: "false"

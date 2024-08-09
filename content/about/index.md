@@ -25,9 +25,10 @@ I care about doing meaningful ethical work for the world. Other than coding, I l
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
 ## Latest Coding Jams 🎧
-{{< spotify type="track" id="5u1vw4nmCG8iuerg6ppBf0" width="100%" height="100" >}}
-{{< spotify type="track" id="7lG5m4JN0exualOkghSNXq" width="100%" height="100" >}}
-{{< spotify type="track" id="5Ov63oXIHuflhMWAs6kG4f" width="100%" height="100" >}}
+{{< spotify type="track" id="4lovbNtAeIxtXWy9bwEsQk" width="100%" height="100" >}}
+{{< spotify type="track" id="27MEQiUj9MdkzZZlEw0KPI" width="100%" height="100" >}}
+{{< spotify type="track" id="0NoeYUnwpb9R26mpylHcR9" width="100%" height="100" >}}
+
 {{< alert "comment" >}}
 A jack of all trades is a master of none, but often times better than a master of one.
 {{< /alert >}}
