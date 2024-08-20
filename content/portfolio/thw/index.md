@@ -1,6 +1,6 @@
 ---
 title: "Content and Editing Intern | THW Debate Podcast"
-tags: [debating]
+tags: [debating, work]
 date: 2021-09-01
 
 showDate: false
