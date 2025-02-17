@@ -80,7 +80,7 @@ Later that night we attended the social at Byron's place, where we watched the C
 
 ![Winter walk! Photo creds: Alice](winterwalk.JPG "Winter walk! Photo creds: Alice")
 
-We got back back to the billet after the social around midnight. The gravity of the situation was dawning on Ananya and I: we had no more cases prepared for when we would inevitably draw government tomorrow in the remaining debate rounds. We stayed up until 2 AM being sweaty, prepping new topics. Aiden and Nihal helped us out too, as we all prepped cases together hoping that we wouldn't have to debate against each other.
+We got back to the billet after the social around midnight. The gravity of the situation was dawning on Ananya and I: we had no more cases prepared for when we would inevitably draw government tomorrow in the remaining debate rounds. We stayed up until 2 AM being sweaty, prepping new topics. Aiden and Nihal helped us out too, as we all prepped cases together hoping that we wouldn't have to debate against each other.
 
 ---
 
@@ -100,7 +100,7 @@ Remember when I said we had nothing else prepared? This was a bit inaccurate. In
 
 > The Fremen (five million) are the indigenous inhabitants who live on Arrakis, hidden survivalists oppressed and forcibly removed from their land by House Harkonnen. They are powerful fighters, having sabotaged spice mining operations in the past using guerrilla warfare.
 
-> Their goal is a restored Arrakis rich with oceans where there is now sand and liberation from spice-harvesting outsiders encroaching on their dunes
+> Their goal is a restored Arrakis rich with oceans where there is now sand and liberation from spice-harvesting outsiders encroaching on their dunes.
 
 > Motion: THBT it is not in the interest of the Fremen to pursue a revolution against House Harkonnen on Arrakis
 
@@ -124,7 +124,7 @@ A few minutes later, the results are announced, and indeed, Ananya and I won the
 
 Our bus back to Waterloo from London was delayed 3 hours due to the snow, but luckily for us, that leaves us plenty of time to reflect! We ordered Chipotle (thanks Hamza), reflected on our respesctive tournament experiences, and braved the cold some more waiting for the bus.
 
-Firstly, this win was meaningful because it established that Ananya and I were deserving of the title and that last year was no fluke. We improved on our record from last year, having only one debate in 8 rounds this time around. We also got to do it off of a motion that we had prepared and were so excited to run, so it was definitely a high point to have won it all off of that motion.
+Firstly, this win was meaningful because it established that Ananya and I were deserving of the title and that last year was no fluke. We improved on our record from last year, having lost only one debate in 8 rounds this time around. We also got to do it off of a motion that we had prepared and were so excited to run, so it was definitely a high point to have won it all off of that motion.
 
 Secondly, it was amazing to see all of the new debaters at Léger. It seemed that the new UW Debate members had enjoyed their experience, both from learning to debate and also the social aspects of it too. If you're reading this, it was really awesome to meet all of you, and thank you so much for giving debate a chance! We are really excited to have you all, and you were all bringing really great vibes. I'm super proud of everyone, especially those who were nervous beforehand but proved to themselves that they could outperform the ceiling of what they thought was possible for themselves. We hope you keep on debating in the future, and perhaps eventually doing the same thing of introducing new people like yourselves to the activity as well.
 
