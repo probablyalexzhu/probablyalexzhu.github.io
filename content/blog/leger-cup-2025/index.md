@@ -102,7 +102,7 @@ Remember when I said we had nothing else prepared? This was a bit inaccurate. In
 
 > Their goal is a restored Arrakis rich with oceans where there is now sand and liberation from spice-harvesting outsiders encroaching on their dunes.
 
-> Motion: THBT it is not in the interest of the Fremen to pursue a revolution against House Harkonnen on Arrakis
+> Motion: Thise House Believes That it is not in the interest of the Fremen to pursue a revolution against House Harkonnen on Arrakis
 
 ![Lisan al Gaib!](dune-part-2-crowd.webp "Lisan al Gaib!")
 
