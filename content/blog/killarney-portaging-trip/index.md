@@ -81,7 +81,7 @@ We slogged back through “Sandy” Lake’s mud, but this time I wore flip-flop
 
 For the 860 m portage, I volunteered to go first. The original plan was to split the distance halfway, but something came over me and **I just kept going**. Stepping over a log, ducking under another fallen log, hopscotching through a muddy patch, scrambling up tough elevation, and then cruising downhill after. Getting scratched by bushes, covered in mud and mosquitos, I just kept going. I pushed until I couldn’t anymore, carrying the canoe for about 600 m before handing it to Ryan, who gave me a big high five. That long stretch ended up being one of the most rewarding parts of the trip.
 
-![Whos's gonna carry the boats?](IMG_0660.JPG "Whos's gonna carry the boats?")
+![Who's gonna carry the boats?](IMG_0660.JPG "Who's gonna carry the boats?")
 
 We reached campsite 3 earlier than expected. Ryan and I went for a short trip of our own to check out the "Tiny Waterfall", doing an unofficial portage to reach Terry Lake. For once, we were canoeing without our heavy bags and without a mandatory destination in mind. We jokingly renamed Terry Lake after ourselves, as if we were the first explorers to ever find that body of water.
 
