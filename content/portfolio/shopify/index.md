@@ -9,7 +9,7 @@ showSummary: true
 draft: false
 
 externalUrl: "https://www.shopify.com/ca"
-summary: "Spending this summer at Shopify in Toronto!"
+summary: "Grew a bunch this summer at Shopify in Toronto! 🏝️ Picked up better developer habits and raised my code quality 🧑‍💻, worked on an awesome AI project, and brought a lot of energy to the team 🪩"
 _build:
   render: "false"
   list: "local"
