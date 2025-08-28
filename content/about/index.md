@@ -22,7 +22,7 @@ I bring curiosity, collaboration, and reflection to everything I do. In teams, I
 
 Beyond coding, I'm passionate about filmmaking, philosophy, psychology, and sci-fi literature, as well as competitive debating and rock climbing. What ties these together is a drive to think critically, tell stories, and push myself in different ways.
 
-**If any of this resonates with you, I’d love to connect!**
+**If any of this resonates with you, I'd love to connect!**
 
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
