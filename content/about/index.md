@@ -1,7 +1,7 @@
 ---
 title: "About"
 tags: [about me]
-date: 2025-08-28
+date: 2025-09-12
 showDate: false
 showWordCount: false
 showReadingTime: false
@@ -16,9 +16,9 @@ showRecent: false
 
 ## Hi, I'm Alex! 👋🐤
 
-I'm a Software Engineering student at the University of Waterloo (graduating in 2027), specializing in Human-Computer Interaction. I love working at the intersection of people and technology; whether that's designing intuitive systems, debating ideas, or experimenting with creative projects.
+I'm a **Software Engineering student at the University of Waterloo** (graduating in 2027), specializing in Human-Computer Interaction. I love working at the intersection of people and technology; whether that's designing intuitive systems, debating ideas, or experimenting with creative projects.
 
-I bring curiosity, collaboration, and reflection to everything I do. In teams, I contribute energy and thoughtful feedback, while also taking ownership of my work. I balance creativity with attention to detail, and I'm always looking for new ways to learn and grow.
+I bring **curiosity, collaboration, and reflection** to everything I do. In teams, I contribute energy and thoughtful feedback, while also taking ownership of my work. I balance creativity with attention to detail, and I'm always looking for new ways to learn and grow.
 
 Beyond coding, I'm passionate about filmmaking, philosophy, psychology, and sci-fi literature, as well as competitive debating and rock climbing. What ties these together is a drive to think critically, tell stories, and push myself in different ways.
 
