@@ -5,17 +5,16 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Alex Zhu"
+title = "probablyalex"
 # logo = "img/logo.jpg"
-description = "Alex Zhu Personal Blog Website"
-# copyright = "Copy, _right?_ :thinking_face:"
+description = "Alex Zhu Personal Website"
 
 dateFormat = "January 2, 2006"
 
 [author]
   name = "Alex Zhu"
   image = "img/author.jpg"
-  headline = "UWaterloo Software Engineering '27"
+  headline = "Software Engineering @ UWaterloo"
   bio = ""
   links = [
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
