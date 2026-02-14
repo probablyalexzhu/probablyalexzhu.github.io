@@ -22,15 +22,9 @@ I bring **curiosity, collaboration, and reflection** to everything I do. In team
 
 Beyond coding, I'm passionate about filmmaking, philosophy, psychology, and sci-fi literature, as well as competitive debating and rock climbing. What ties these together is a drive to think critically, tell stories, and push myself in different ways.
 
-**If any of this resonates with you, I'd love to connect!**
-
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
 ## Songs on Repeat 🎧
 {{< spotify type="track" id="1Rj4mfwde2nEOk5bmc4pI6" width="100%" height="100" >}}
 {{< spotify type="track" id="3v5o91PrUtf0nmO6j8J7dZ" width="100%" height="100" >}}
 {{< spotify type="track" id="12bYYQaLqHliSXvRIYlq8G" width="100%" height="100" >}}
-
-{{< alert "comment" >}}
-A jack of all trades is a master of none, but often times better than a master of one.
-{{< /alert >}}
