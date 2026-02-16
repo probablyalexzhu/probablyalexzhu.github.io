@@ -6,7 +6,6 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 
-summary: "Hi, I'm Alex!"
 showSummary: true
 showAuthor: false
 showTableOfContents: false
