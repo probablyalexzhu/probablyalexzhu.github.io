@@ -7,7 +7,7 @@
 
 colorScheme = "sapphire"
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = false
@@ -22,13 +22,13 @@ enableCodeCopy = false
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
 
 [article]
   showDate = true
