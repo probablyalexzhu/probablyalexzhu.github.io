@@ -1,5 +1,5 @@
 ---
-title: "What I Learned About Myself, Others, and The World on Exchange in Singapore :flag_sg:"
+title: "What I Learned About Myself, Others, and The World on Exchange in Singapore"
 tags: [thoughts, waterloo, exchange, tutorials]
 date: 2026-01-26
 showDate: true
@@ -9,7 +9,7 @@ showReadingTime: true
 # summary: "Hi! My name is Alex Zhu."
 showSummary: true
 showAuthor: true
-showTableOfContents: false
+showTableOfContents: true
 showComments: true
 showPagination: true
 invertPagination: true

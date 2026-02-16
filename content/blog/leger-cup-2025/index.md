@@ -102,7 +102,7 @@ Remember when I said we had nothing else prepared? This was a bit inaccurate. In
 
 > Their goal is a restored Arrakis rich with oceans where there is now sand and liberation from spice-harvesting outsiders encroaching on their dunes.
 
-> Motion: Thise House Believes That it is not in the interest of the Fremen to pursue a revolution against House Harkonnen on Arrakis
+> Motion: This House Believes That it is not in the interest of the Fremen to pursue a revolution against House Harkonnen on Arrakis
 
 ![Lisan al Gaib!](dune-part-2-crowd.webp "Lisan al Gaib!")
 
@@ -122,7 +122,7 @@ A few minutes later, the results are announced, and indeed, Ananya and I won the
 
 ### Reflections
 
-Our bus back to Waterloo from London was delayed 3 hours due to the snow, but luckily for us, that leaves us plenty of time to reflect! We ordered Chipotle (thanks Hamza), reflected on our respesctive tournament experiences, and braved the cold some more waiting for the bus.
+Our bus back to Waterloo from London was delayed 3 hours due to the snow, but luckily for us, that leaves us plenty of time to reflect! We ordered Chipotle (thanks Hamza), reflected on our respective tournament experiences, and braved the cold some more waiting for the bus.
 
 Firstly, this win was meaningful because it established that Ananya and I were deserving of the title and that last year was no fluke. We improved on our record from last year, having lost only one debate in 8 rounds this time around. We also got to do it off of a motion that we had prepared and were so excited to run, so it was definitely a high point to have won it all off of that motion.
 

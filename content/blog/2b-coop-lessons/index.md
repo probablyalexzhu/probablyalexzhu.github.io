@@ -22,7 +22,7 @@ I wanted to share a few lessons I learned during this co-op search that aren't i
 
 ## Application Process 🧳
 1. Applications that require **special action** stated in the job description, e.g. send us an email w/ xyz text, have a much higher chance for an interview if you do it. A lot of potential applicants miss it or don't bother.
-2. A **generalized, one-size-fits-all** cover letter doesn’t work too well for any type of company. Etiher don't write one, or customize adequately.
+2. A **generalized, one-size-fits-all** cover letter doesn't work too well for any type of company. Either don't write one, or customize adequately.
 3. **Ask past co-ops** about their experience at the company and the interview questions they remember to help you prepare. Then, practice your answers.
 ## Interview Process 🤩
 4. This one's from debate: before your interview, do some **voice warmups**. Be energetic, excited, and ready to talk slowly and clearly.

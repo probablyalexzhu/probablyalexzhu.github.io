@@ -1,5 +1,5 @@
 ---
-title: "Spicy YouTube Mixes You Need To Listen To 💿🔥"
+title: "Spicy YouTube Mixes You Need To Listen To"
 tags: [thoughts, music]
 date: 2024-08-19
 showDate: true
@@ -22,7 +22,7 @@ I really enjoyed studying with some YouTube mixes this term. I discovered a lot 
 
 Here are some of my favourite mixes/albums for you to enjoy:
 
-"I’m a delivery man and Iv been bumpin this all week. Feeling like I’m speed running a video game."
+"I'm a delivery man and I've been bumpin this all week. Feeling like I'm speed running a video game."
 {{< youtube uduNyEbTpv4 >}}
 
 Immaculate vibes, high energy UKG mix: 
@@ -31,7 +31,7 @@ Immaculate vibes, high energy UKG mix:
 Nostalgic and futuristic Jungle + DnB mix: 
 {{< youtube tdceTb3vsmk >}}
 
-Extremely optimismic and classy mix w/ live video: 
+Extremely optimistic and classy mix w/ live video: 
 {{< youtube HPNBzOEnUZs >}}
 
 Imaginative and dreamy sci-fi album by the talented DUSQK: 

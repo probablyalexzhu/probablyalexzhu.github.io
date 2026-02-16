@@ -22,7 +22,7 @@ draft: false
 
 ![Arduino hardware in incomplete cardboard box under construction on table in E7 garage.](thumb.jpg "SE 101 Final Project in progress, 2022")
 
-As software engineering students, it was tough when our final project guidelines forced us to use hardware. No one on my team of five, *4Fun*, had much hardware experience, so we had to research a lot from scratch and made a lot of mistakes on the way. **My plan in this article is talk about what we made on a technical level and provide takeaways for the future.**
+As software engineering students, it was tough when our final project guidelines forced us to use hardware. No one on my team of five, *4Fun*, had much hardware experience, so we had to research a lot from scratch and made a lot of mistakes on the way. **My plan in this article is to talk about what we made on a technical level and provide takeaways for the future.**
 
 ## What We Made 💪
 {{< youtube "Pv8vML8Qfhs" >}}

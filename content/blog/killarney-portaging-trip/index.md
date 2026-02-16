@@ -9,7 +9,7 @@ showReadingTime: true
 # summary: "Hi! My name is Alex Zhu."
 showSummary: true
 showAuthor: true
-showTableOfContents: false
+showTableOfContents: true
 showComments: true
 showPagination: true
 invertPagination: true
@@ -91,7 +91,7 @@ Back at camp, we helped gather firewood and learned bushcraft skills: sawing, sp
 
 ![Moonlight on the last night](IMG_0724.JPG "Moonlight on the last night")
 
-## Conclusion ✅
+## Conclusion
 
 By day 4, heading home, I could see **I’d met my goals**. I got my mind off the to-do lists in a simplified environment where all I had to think about was putting one foot in front of the other. I got comfortable with being uncomfortable: wading through mud, fending off mosquitos, and carrying canoes over uneven trails. I appreciated nature from majestic lakeside campsites, the rewards of portaging into the backcountry. And finally, I learned valuable bushcraft skills and lessons I'll carry into future trips.
 

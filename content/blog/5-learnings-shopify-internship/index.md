@@ -9,7 +9,7 @@ showReadingTime: true
 # summary: "Hi! My name is Alex Zhu."
 showSummary: true
 showAuthor: true
-showTableOfContents: false
+showTableOfContents: true
 showComments: true
 showPagination: true
 invertPagination: true

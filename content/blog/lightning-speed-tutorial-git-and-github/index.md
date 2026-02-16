@@ -82,6 +82,6 @@ git push // send it to its already known remote destination
 
 If there are ever new changes on the remote repository that aren't reflected on your local repository (which happens if other people have been working on it from other places), you will have to `git pull` first to copy the changes to your computer. This gets rough when someone else changed code you're currently working on; then you will have to deal with merge conflicts (not fun).
 
-**Congratulations!** You know how to get started with Git and GitHub now! You can code collaboratively, track changes quickly, and do version control. As a next step, you can learn about different ways to use Git and GitHub other than the terminal and how to deal with merge clips.
+**Congratulations!** You know how to get started with Git and GitHub now! You can code collaboratively, track changes quickly, and do version control. As a next step, you can learn about different ways to use Git and GitHub other than the terminal and how to deal with merge conflicts.
 
 Make sure to leave a comment if you have any questions or learned something from this.

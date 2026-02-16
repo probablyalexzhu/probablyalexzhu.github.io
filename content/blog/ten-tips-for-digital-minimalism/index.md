@@ -20,7 +20,7 @@ draft: false
 If you haven't yet, make sure to read [A Case for Digital Minimalism]({{< ref "/a-case-for-digital-minimalism" >}} "A Case for Digital Minimalism"). Without further ado, here's my list from least difficult to most on how to become a minimalist (without throwing out your phone or becoming a hermit):
 
 ### 1. Declutter Home Screens 📲
-- Take apps that you don't want to use off your desktop or bookmark bars, and you won't instictively open them as often.
+- Take apps that you don't want to use off your desktop or bookmark bars, and you won't instinctively open them as often.
 - Turn off notifications to reduce impulsively opening things.
 ### 2. News Feed Eradicator 🗞️
 - This is a great browser extension that replaces home feeds on platforms like Twitter or YouTube with quotes. It reduces passive consumption and forces you to search for content that you know you actually want to see, rather than letting algorithms which prioritize their profit over your happiness.
