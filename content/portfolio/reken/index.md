@@ -9,7 +9,7 @@ showSummary: true
 draft: false
 
 externalUrl: "https://reken.ai/"
-summary: "Building a new type of AI platform to protect against generative AI threats in the Bay 🌉"
+summary: "Building a new type of AI platform to protect against generative AI threats in the Bay"
 _build:
   render: "false"
   list: "local"
