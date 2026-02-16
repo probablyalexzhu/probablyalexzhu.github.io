@@ -7,3 +7,19 @@ html {
     max-width: 100%;
     padding-right: 5%;
 }
+
+header img {
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  animation: waddle 0.5s ease;
+}
+
+@keyframes waddle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
