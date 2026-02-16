@@ -29,7 +29,7 @@ Quick post to recap what I learned during my exchange experience!
 
 ## 2. Relationships
 - Learned more about the nature of relationships, and how one can seek genuine connection even if you know it’ll come to an end soon.
-![Late night drinks with two Swedes and a Waterloo in Seoul](soju.jpg "Late night drinks with two Swedes and a Waterloo in Seoul")
+![Late night drinks with two Swedes and a fellow Waterloo student in Seoul](soju.jpg "Late night drinks with two Swedes and a fellow Waterloo student in Seoul")
 - How valuable my existing friendships are and how excited I am to see them again
 
 ## 3. Other

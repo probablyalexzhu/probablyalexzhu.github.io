@@ -1,5 +1,4 @@
-/* Increase the default font size */
 html {
-  font-size: 14pt;
+  font-size: 12pt;
   font-family: "Avenir", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
