@@ -18,6 +18,7 @@ dateFormat = "January 2, 2006"
   bio = ""
   links = [
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
+   { twitter = "https://x.com/probablyalexz" },
    { github = "https://github.com/probablyalexzhu" },
    { email = "mailto:za.alexzhu@gmail.com" },
    { logo_b = "https://se-webring.xyz" }
@@ -59,7 +60,5 @@ dateFormat = "January 2, 2006"
   #   { tiktok = "https://tiktok.com/@username" },
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
-  #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
-  #   { youtube = "https://youtube.com/username" },
-  # ]
+  #   { youtube = "https://youtube.com/username" }
