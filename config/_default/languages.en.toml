@@ -18,8 +18,8 @@ dateFormat = "January 2, 2006"
   bio = ""
   links = [
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
-   { twitter = "https://x.com/probablyalexz" },
    { github = "https://github.com/probablyalexzhu" },
+   { twitter = "https://x.com/probablyalexz" },
    { email = "mailto:za.alexzhu@gmail.com" },
    { logo_b = "https://se-webring.xyz" }
   ]

@@ -19,7 +19,7 @@ I'm a Software Engineering student at the University of Waterloo, specializing i
 
 I wrote about how I think about work, motivation, and discipline [here](/blog/rolling-downhill/).
 
-I'm graduating in 2027 and looking for my next challenge; feel free to [reach out](https://linkedin.com/in/probablyalexzhu/).
+I'm graduating in 2027 and looking for my next challenge -- find me on [GitHub](https://github.com/probablyalexzhu) and [LinkedIn](https://www.linkedin.com/in/probablyalexzhu).
 
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
