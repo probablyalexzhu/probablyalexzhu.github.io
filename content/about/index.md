@@ -24,6 +24,6 @@ I'm graduating in 2027 and looking for my next challenge -- find me on [GitHub](
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
 ## Songs on Repeat
-{{< spotify type="track" id="5YQ34RKhPrJzojv7LmbekW" width="100%" height="100" >}}
-{{< spotify type="track" id="4JbyNMvp3BqVILVy4Bbevf" width="100%" height="100" >}}
-{{< spotify type="track" id="7xQwfkendSD4V2MISvEhwR" width="100%" height="100" >}}
+{{< spotify type="track" id="1xqT27jSG1Y15vOXfsV0gv" width="100%" height="100" >}}
+{{< spotify type="track" id="6KoPB5qyTOf88fQmSe1GYS" width="100%" height="100" >}}
+{{< spotify type="track" id="433P7tDcIAi6NLnf4Sh6tI" width="100%" height="100" >}}
