@@ -15,7 +15,7 @@ showRecent: false
 
 Hi, I'm Alex.
 
-I'm a Software Engineering student at the University of Waterloo, specializing in Human-Computer Interaction. I'm building a new type of AI platform to protect against generative AI threats at [Reken](https://reken.ai/) in the Bay Area, shipped workflow automation features at [Shopify](https://shopify.com/) that were prominently featured in [Editions Winter '26](https://www.shopify.com/editions/winter2026#sidekick), and worked on early-stage product at [Swift](https://www.runswiftapp.com/). I'm also one of North America's top-ranked competitive debaters and led Waterloo's first team to [break](https://youtu.be/U9lADym0tlc?t=1581) at the World Championship since 1991.
+I'm a Software Engineering student at the University of Waterloo, specializing in Human-Computer Interaction. I'm building a new type of AI platform to protect against generative AI threats at [Reken](https://reken.ai/) in the Bay Area, shipped workflow automation features at [Shopify](https://shopify.com/) that were prominently featured in [Editions Winter '26](https://www.shopify.com/editions/winter2026#sidekick), and worked on early-stage product at [Swift](https://www.runswiftapp.com/). I'm also one of North America's top-ranked competitive debaters and led Waterloo's first team to [break](https://uwaterloo.ca/software-engineering/news/waterloo-team-breaks-world-universities-debating) at the World Championship since 1991.
 
 I wrote about how I think about work, motivation, and discipline [here](/blog/rolling-downhill/).
 
@@ -24,6 +24,6 @@ I'm graduating in 2027 and looking for my next challenge -- find me on [GitHub](
 ![Bird That Carries You Over A Disproportionately Small Gap](bird.png "&quot;Bird That Carries You Over A Disproportionately Small Gap&quot; from Undertale that inspired my online avatar")
 
 ## Songs on Repeat
-{{< spotify type="track" id="1xqT27jSG1Y15vOXfsV0gv" width="100%" height="100" >}}
-{{< spotify type="track" id="6KoPB5qyTOf88fQmSe1GYS" width="100%" height="100" >}}
-{{< spotify type="track" id="433P7tDcIAi6NLnf4Sh6tI" width="100%" height="100" >}}
+{{< spotify type="track" id="7vjfnsnDXZGK4PSq54ISjc" width="100%" height="100" >}}
+{{< spotify type="track" id="2M7EflZCPCqqRLB9hy5MDy" width="100%" height="100" >}}
+{{< spotify type="track" id="514joG57v4yKTsfQmz7stz" width="100%" height="100" >}}
