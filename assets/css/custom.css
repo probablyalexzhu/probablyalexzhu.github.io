@@ -8,6 +8,75 @@ html {
     padding-right: 5%;
 }
 
+/* Profile home page: left-align the whole column so the header and
+   bio share the same edge as the Recent list below. */
+article.text-center {
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 3rem;
+}
+
+/* Push the Recent list down so it isn't crowding the intro. */
+article.text-center + section {
+  margin-top: 4.5rem;
+}
+
+article.text-center > .prose {
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+/* Header: avatar on the left, name + links stacked beside it.
+   The header is a flat list of siblings (img, h1, links div), so
+   use a grid to place the photo in a left column spanning all rows. */
+article.text-center > header {
+  display: grid;
+  margin-bottom: 3rem;
+  grid-template-columns: auto 1fr;
+  /* Spacer rows top and bottom keep the text lines tight together and
+     vertically center the group against the taller photo. */
+  grid-template-rows: 1fr auto auto 1fr;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+  justify-items: start;
+  text-align: left;
+}
+
+/* Pull the icon row left so the first icon's glyph lines up with the
+   text above it, cancelling Congo's px-1 padding on each icon link. */
+article.text-center > header > div > div {
+  margin-left: -0.5rem;
+  color: #737373; /* neutral-500 — a step darker than Congo's default */
+}
+
+article.text-center > header > img {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  margin-bottom: 0;
+}
+
+article.text-center > header > h1 { grid-column: 2; grid-row: 2; }
+article.text-center > header > div { grid-column: 2; grid-row: 3; }
+
+/* On phones, stack the photo above the text (still left-aligned). */
+@media (max-width: 480px) {
+  article.text-center > header {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 0.25rem;
+  }
+  article.text-center > header > img {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 0.5rem;
+  }
+  article.text-center > header > h1 { grid-column: 1; grid-row: 2; }
+  article.text-center > header > div { grid-column: 1; grid-row: 3; }
+}
+
 header nav img {
   transition: transform 0.3s ease;
 }

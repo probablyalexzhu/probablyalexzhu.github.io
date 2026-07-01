@@ -14,12 +14,12 @@ dateFormat = "January 2, 2006"
 [author]
   name = "Alex Zhu"
   image = "img/author.jpg"
-  headline = "Software Engineering @ UWaterloo"
+  headline = ""
   bio = ""
   links = [
    { linkedin = "https://www.linkedin.com/in/probablyalexzhu" },
-   { github = "https://github.com/probablyalexzhu" },
    { twitter = "https://x.com/probablyalexz" },
+   { github = "https://github.com/probablyalexzhu" },
    { email = "mailto:za.alexzhu@gmail.com" },
    { logo_b = "https://se-webring.xyz" }
   ]
