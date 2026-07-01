@@ -1,0 +1,39 @@
+{{- /* A single project card. Params:
+     title  (required)  card heading
+     gif    (required)  path to a GIF/image. Looked up in assets/ (Hugo Pipes);
+                        falls back to the raw value for /static paths or full URLs.
+     live   (optional)  deployment URL — the primary call to action
+     github (optional)  repo URL — primary CTA if there's no live link, else a "Code" link
+     blog   (optional)  write-up URL — shown as "Write-up" when present
+   The blurb is the inner content (markdown allowed). */ -}}
+{{- $title := .Get "title" -}}
+{{- $blurb := .Inner | markdownify -}}
+{{- $live := .Get "live" -}}
+{{- $github := .Get "github" -}}
+{{- $blog := .Get "blog" -}}
+{{- $gif := .Get "gif" -}}
+{{- with resources.Get $gif }}{{ $gif = .RelPermalink }}{{ end -}}
+{{- $primaryURL := $live | default $github -}}
+{{- $primaryLabel := cond (ne $live "") "Live demo" "View code" -}}
+<article class="proj-card">
+  {{- with $gif }}
+  <div class="proj-card__media">
+    <img src="{{ . }}" alt="{{ $title }} preview" loading="lazy" decoding="async">
+  </div>
+  {{- end }}
+  <div class="proj-card__body">
+    <h3 class="proj-card__title">{{ $title }}</h3>
+    <div class="proj-card__blurb">{{ $blurb }}</div>
+    <div class="proj-card__links">
+      {{- with $primaryURL }}
+      <a class="proj-card__cta" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $primaryLabel }} <span aria-hidden="true">↗</span></a>
+      {{- end }}
+      {{- if and (ne $live "") (ne $github "") }}
+      <a class="proj-card__link" href="{{ $github }}" target="_blank" rel="noopener noreferrer">Code</a>
+      {{- end }}
+      {{- with $blog }}
+      <a class="proj-card__link" href="{{ . }}">Write-up <span aria-hidden="true">→</span></a>
+      {{- end }}
+    </div>
+  </div>
+</article>

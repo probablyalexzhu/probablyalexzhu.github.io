@@ -1,0 +1,77 @@
+{{- /* Dependency-free photo gallery: masonry grid + native <dialog> lightbox.
+
+  {{< gallery >}}                      reads content bundle resources at gallery/*
+  {{< gallery match="photos/*" >}}     custom glob (page bundle, else /assets)
+
+  Captions are opt-in via the page's `resources` front matter:
+    resources:
+      - src: "gallery/sunset.jpg"
+        params: { caption: "Golden hour on Georgian Bay" }
+*/ -}}
+{{- $match := .Get "match" | default "gallery/*" -}}
+{{- $found := .Page.Resources.Match $match -}}
+{{- if not $found }}{{ $found = resources.Match $match }}{{ end -}}
+{{- /* Keep only formats Hugo can process; skips HEIC and other non-image files. */ -}}
+{{- $ok := slice "jpeg" "jpg" "png" "gif" "tiff" "bmp" "webp" -}}
+{{- $imgs := slice -}}
+{{- range $found -}}
+  {{- if in $ok (lower .MediaType.SubType) -}}{{ $imgs = $imgs | append . }}{{- end -}}
+{{- end -}}
+{{- with $imgs -}}
+<div class="gallery">
+  {{- range $i, $img := . -}}
+    {{- $thumb := $img.Resize "800x q85" -}}
+    {{- $full := cond (gt $img.Width 1920) ($img.Resize "1920x q85") $img -}}
+    {{- $cap := $img.Params.caption -}}
+    <button type="button" class="gallery__item" data-full="{{ $full.RelPermalink }}"{{ with $cap }} data-caption="{{ . }}"{{ end }} aria-label="{{ with $cap }}{{ . }}{{ else }}View photo {{ add $i 1 }}{{ end }}">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async" alt="{{ with $cap }}{{ . }}{{ else }}Photo {{ add $i 1 }}{{ end }}">
+    </button>
+  {{- end -}}
+</div>
+{{- if not ($.Page.Scratch.Get "galleryLightbox") -}}
+{{- $.Page.Scratch.Set "galleryLightbox" true -}}
+<dialog class="gallery-lightbox" aria-label="Photo viewer">
+  <button type="button" class="gallery-lightbox__ctrl gallery-lightbox__close" data-close aria-label="Close">&times;</button>
+  <button type="button" class="gallery-lightbox__ctrl gallery-lightbox__nav gallery-lightbox__nav--prev" data-prev aria-label="Previous photo">&lsaquo;</button>
+  <figure class="gallery-lightbox__figure">
+    <img class="gallery-lightbox__img" src="" alt="">
+    <figcaption class="gallery-lightbox__caption"></figcaption>
+  </figure>
+  <button type="button" class="gallery-lightbox__ctrl gallery-lightbox__nav gallery-lightbox__nav--next" data-next aria-label="Next photo">&rsaquo;</button>
+</dialog>
+<script>
+(function () {
+  var dlg = document.querySelector('.gallery-lightbox');
+  if (!dlg || dlg.dataset.ready) return;
+  dlg.dataset.ready = '1';
+  var img = dlg.querySelector('.gallery-lightbox__img');
+  var cap = dlg.querySelector('.gallery-lightbox__caption');
+  var items = [].slice.call(document.querySelectorAll('.gallery__item'));
+  var idx = 0;
+  function show(i) {
+    idx = (i + items.length) % items.length;
+    var el = items[idx];
+    img.src = el.getAttribute('data-full');
+    var c = el.getAttribute('data-caption') || '';
+    img.alt = c;
+    cap.textContent = c;
+    cap.style.display = c ? '' : 'none';
+  }
+  items.forEach(function (el, i) {
+    el.addEventListener('click', function () { show(i); if (!dlg.open) dlg.showModal(); });
+  });
+  dlg.querySelector('[data-next]').addEventListener('click', function () { show(idx + 1); });
+  dlg.querySelector('[data-prev]').addEventListener('click', function () { show(idx - 1); });
+  dlg.querySelector('[data-close]').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!dlg.open) return;
+    if (e.key === 'ArrowRight') show(idx + 1);
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+  });
+})();
+</script>
+{{- end -}}
+{{- else -}}
+{{- warnf "gallery shortcode: no images matched %q" $match -}}
+{{- end -}}
