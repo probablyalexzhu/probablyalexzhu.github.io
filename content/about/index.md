@@ -11,15 +11,6 @@ showAuthor: false
 showTableOfContents: false
 showComments: false
 showRecent: false
-
-# Optional per-photo captions for the gallery (shown in the lightbox).
-resources:
-  - src: "gallery/killarney-1.jpg"
-    params: { caption: "Portaging through Killarney" }
-  - src: "gallery/singapore-1.jpg"
-    params: { caption: "SUTD, Singapore" }
-  - src: "gallery/japan-1.jpg"
-    params: { caption: "Somewhere in Japan" }
 ---
 
 ### Trivia

@@ -16,16 +16,14 @@ I wrote about how I think about work, motivation, and discipline [here](/blog/ro
 {{< project
     title="Muniworm"
     gif="projects/unwinding.gif"
-    live="https://muniworm.probablyalex.com/"
-    github="https://github.com/probablyalexzhu/f1-sql" >}}
+    live="https://muniworm.probablyalex.com/" >}}
 Interactive artifact: the SF Muni "worm" unravels into the real Muni Metro map. Tap in with your Clipper card to explore!
 {{< /project >}}
 
 {{< project
     title="DebateComps"
     gif="projects/debatecomps.gif"
-    live="https://www.debatecomps.com/"
-    github="https://github.com/probablyalexzhu/4gains" >}}
+    live="https://www.debatecomps.com/" >}}
 The world's debate calendar: combines spreadsheets into a unified platform where international debaters can find competitions. 800+ unique visitors per month.
 {{< /project >}}
 
@@ -33,9 +31,7 @@ The world's debate calendar: combines spreadsheets into a unified platform where
     title="Noat"
     gif="projects/noat.gif"
     focus="center 25%"
-    live="/blog/wrapping-up-noat/"
-    github="https://github.com/probablyalexzhu/noat"
-    blog="/blog/wrapping-up-noat/" >}}
+    live="/blog/wrapping-up-noat/" >}}
 A minimalist, local-first note-taking app with realtime cross-device sync, like Raycast Floating Notes with sync.
 {{< /project >}}
 
