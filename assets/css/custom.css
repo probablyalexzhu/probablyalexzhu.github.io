@@ -9,6 +9,9 @@ html {
    left completely untouched. Values are "R, G, B" (the theme wraps them
    in rgba(var(--...), a)). */
 html.dark {
+  /* Native dark scrollbars & form controls (fixes the white scrollbar
+     in the search modal). */
+  color-scheme: dark;
   --color-neutral: 230, 237, 243;      /* #E6EDF3  primary text */
   --color-neutral-300: 201, 209, 217;  /* #C9D1D9  bright secondary text */
   --color-neutral-400: 139, 148, 158;  /* #8B949E  muted text */
@@ -87,6 +90,12 @@ article.text-center > header {
 article.text-center > header > div > div {
   margin-left: -0.5rem;
   color: #737373; /* neutral-500 — a step darker than Congo's default */
+}
+
+/* Same left-shift for the article-footer author box icons, so the first
+   icon lines up with the name/byline above it. */
+.place-self-center .flex-wrap {
+  margin-left: -0.5rem;
 }
 
 article.text-center > header > img {
