@@ -28,7 +28,7 @@ The world's debate calendar: combines spreadsheets into a unified platform where
 {{< /project >}}
 
 {{< project
-    title="Noat"
+    title="noat"
     gif="projects/noat.gif"
     focus="center 25%"
     live="/blog/wrapping-up-noat/" >}}
