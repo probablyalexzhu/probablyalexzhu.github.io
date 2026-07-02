@@ -16,6 +16,7 @@ I wrote about how I think about work, motivation, and discipline [here](/blog/ro
 {{< project
     title="Noat"
     gif="projects/noat.gif"
+    focus="center 25%"
     live="https://noat.app"
     github="https://github.com/probablyalexzhu/noat"
     blog="/blog/wrapping-up-noat/" >}}
