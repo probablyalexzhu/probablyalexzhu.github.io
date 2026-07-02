@@ -9,33 +9,34 @@ I'm also one of North America's top-ranked competitive debaters and led Waterloo
 
 I wrote about how I think about work, motivation, and discipline [here](/blog/rolling-downhill/).
 
-### Select Work
+### Selected Work
 
 {{< projects >}}
+
+{{< project
+    title="Muniworm"
+    gif="projects/unwinding.gif"
+    live="https://muniworm.probablyalex.com/"
+    github="https://github.com/probablyalexzhu/f1-sql" >}}
+Interactive artifact: the SF Muni "worm" unravels into the real Muni Metro map. Tap in with your Clipper card to explore!
+{{< /project >}}
+
+{{< project
+    title="DebateComps"
+    gif="projects/debatecomps.gif"
+    live="https://www.debatecomps.com/"
+    github="https://github.com/probablyalexzhu/4gains" >}}
+The world's debate calendar: combines spreadsheets into a unified platform where international debaters can find competitions. 800+ unique visitors per month.
+{{< /project >}}
 
 {{< project
     title="Noat"
     gif="projects/noat.gif"
     focus="center 25%"
-    live="https://noat.app"
+    live="/blog/wrapping-up-noat/"
     github="https://github.com/probablyalexzhu/noat"
     blog="/blog/wrapping-up-noat/" >}}
-The notetaker of all time. Captures everything you throw at it and quietly organizes itself in the background so you never file a note twice.
-{{< /project >}}
-
-{{< project
-    title="F1 SQL Explorer"
-    gif="projects/f1.png"
-    live="https://f1-sql.fly.dev"
-    github="https://github.com/probablyalexzhu/f1-sql" >}}
-Query seventy years of Formula 1 history in the browser. Write raw SQL against a full race database and get results back instantly.
-{{< /project >}}
-
-{{< project
-    title="4Gains"
-    gif="projects/4gains.png"
-    github="https://github.com/probablyalexzhu/4gains" >}}
-A workout tracker built for SE 101 that turns your lifting logs into progress charts. Repo only — this one never left the garage.
+A minimalist, local-first note-taking app with realtime cross-device sync, like Raycast Floating Notes with sync.
 {{< /project >}}
 
 {{< /projects >}}
