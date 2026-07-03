@@ -3,16 +3,19 @@
      gif    (required)  path to a GIF/image. Looked up in assets/ (Hugo Pipes);
                         falls back to the raw value for /static paths or full URLs.
      live   (optional)  destination the whole card links to.
+     newtab (optional)  set "true" to open in a new tab. External (http) links
+                        always open in a new tab; use this for internal ones.
    The blurb is the inner content (markdown allowed). */ -}}
 {{- $title := .Get "title" -}}
 {{- $blurb := .Inner | markdownify -}}
 {{- $live := .Get "live" -}}
+{{- $newtab := .Get "newtab" -}}
 {{- /* focus: object-position for the cropped image, e.g. "center 30%"
        (lower % shows a higher part of the frame). Defaults to center. */ -}}
 {{- $focus := .Get "focus" -}}
 {{- $gif := .Get "gif" -}}
 {{- with resources.Get $gif }}{{ $gif = .RelPermalink }}{{ end -}}
-<a class="proj-card"{{ with $live }} href="{{ . }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener noreferrer"{{ end }}{{ end }}>
+<a class="proj-card"{{ with $live }} href="{{ . }}"{{ if or (hasPrefix . "http") $newtab }} target="_blank" rel="noopener noreferrer"{{ end }}{{ end }}>
   {{- with $gif }}
   <div class="proj-card__media">
     <img src="{{ . }}" alt="{{ $title }} preview" loading="lazy" decoding="async"{{ with $focus }} style="object-position: {{ . }}"{{ end }}>

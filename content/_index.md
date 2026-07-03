@@ -38,7 +38,8 @@ Prototyped and helped ship the AI agent that generates Shopify Flow automations 
     title="noat"
     gif="projects/noat.gif"
     focus="center 25%"
-    live="/blog/wrapping-up-noat/" >}}
+    live="/blog/wrapping-up-noat/"
+    newtab="true" >}}
 A minimalist, local-first note-taking app with realtime cross-device sync, like Raycast Floating Notes with sync.
 {{< /project >}}
 
