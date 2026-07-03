@@ -163,6 +163,7 @@ header nav img:hover {
   75% { transform: rotate(5deg); }
   100% { transform: rotate(0deg); }
 }
+
 /* ---- Project cards ({{< projects >}} / {{< project >}}) ---- */
 .proj-grid {
   display: grid;
@@ -288,6 +289,129 @@ header nav img:hover {
 @media (max-width: 1024px) { .gallery { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 768px)  { .gallery { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px)  { .gallery { grid-template-columns: 1fr; } }
+
+/* Spotify embeds: auto-fitting grid. Fits as many columns as can hold a
+   ~300px-wide player, then wraps (3 → 2 → 1) — so players never get
+   squeezed below their usable width (which caused overflow scrollbars),
+   and there are no fixed breakpoints to maintain. */
+.song-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.song-row iframe {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+/* Bird figure: full-width, left-aligned like the rest of the page (overrides
+   the theme's centered image hook). */
+.bird-figure {
+  margin: 1.5rem 0;
+}
+
+.bird-figure img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Bird-song easter egg: the italic song title is a play toggle. The reward
+   (a whole track) is disproportionate to the tiny ♪ you click — which is the
+   bird's entire joke. */
+.bird-song {
+  font: inherit;
+  /* Match the site's inline links: primary colour, weight 500, no underline
+     (see the .prose a override above), just with a ♪ appended. */
+  color: var(--tw-prose-links);
+  font-weight: 500;
+  background: none;
+  border: 0;
+  padding: 0;
+  /* A hair of trailing space so the ♪ doesn't crowd the next word. */
+  margin-right: 0.15em;
+  cursor: pointer;
+  white-space: normal;
+}
+
+.bird-song:hover {
+  color: rgba(var(--color-neutral), 1);
+}
+
+.bird-song:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ♪ sits quiet until you hover — discoverable, not a billboard. */
+.bird-song__note {
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+}
+
+.bird-song:hover .bird-song__note,
+.bird-song:focus-visible .bird-song__note {
+  opacity: 1;
+}
+
+/* ♪ ⇄ equaliser bars driven by the .is-playing class. */
+.bird-song__eq {
+  display: none;
+  align-items: flex-end;
+  gap: 2px;
+  height: 0.8em;
+  vertical-align: baseline;
+}
+
+.bird-song__eq span {
+  width: 2px;
+  height: 30%;
+  background: currentColor;
+  animation: bird-eq 0.9s ease-in-out infinite;
+}
+
+.bird-song__eq span:nth-child(2) { animation-delay: 0.2s; }
+.bird-song__eq span:nth-child(3) { animation-delay: 0.4s; }
+
+.bird-song.is-playing .bird-song__note { display: none; }
+.bird-song.is-playing .bird-song__eq { display: inline-flex; }
+
+@keyframes bird-eq {
+  0%, 100% { height: 30%; }
+  50%      { height: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bird-song__eq span { animation: none; height: 70%; }
+  .bird-song__note { transition: none; }
+}
+
+/* Hidden but playable. Chrome blocks audio in a cross-origin iframe that's
+   display:none OR clipped to nothing, so the iframe must stay full-size and
+   rendered — we just make the (surviving) wrapper invisible with opacity and
+   drop it behind everything. The API replaces the inner target with the
+   iframe, so the wrapper is what carries the hiding. */
+.bird-song-embed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 80px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bird-song-embed iframe {
+  width: 300px;
+  height: 80px;
+  border: 0;
+}
 
 .gallery__item {
   display: block;
