@@ -16,24 +16,27 @@ showRecent: false
 
 ### Trivia
 - I was raised in York Region, north of Toronto
-- Formative media: Andor, Range (David Epstein), Vlogbrothers, All About Love, Digital Minimalism, Adventure Time
-- I'm grateful to have visited these countries: 🇨🇦 🇨🇳 🇺🇸 🇫🇷 🇪🇸 🇩🇴 🇻🇳 🇵🇦 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇸🇬 🇰🇷 🇯🇵 🇲🇾 🇧🇬 🇳🇱
-- Some hobbies and interests:
-    - Varsity debate: competing, judging, teaching, organizing events
-    - Sports: rock climbing, tennis, skateboarding, ultimate, touching grass
-    - Visual arts: vlogging, filmmaking, photography, painting
-    - Music: music production, rapping, discovering new music
-    - Other: following Toronto sports, interior design, language learning, reading
+- Things that shaped me: Andor, Range (David Epstein), Vlogbrothers, All About Love, Digital Minimalism, Adventure Time
+- Countries visited, many for debating: 🇨🇦 🇨🇳 🇺🇸 🇫🇷 🇪🇸 🇩🇴 🇻🇳 🇵🇦 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇸🇬 🇰🇷 🇯🇵 🇲🇾 🇧🇬 🇳🇱
+- Some hobbies and interests: tennis, rock climbing, skateboarding, ultimate, following Toronto sports, filmmaking, producing music, painting, photography
 
-### Gallery
+### Camera Roll
 
 {{< gallery >}}
 
+### Avatar
+
+The bird in this site's logo is the {{< birdsong >}} Bird That Carries You Over a Disproportionately Small Gap{{< /birdsong >}} from Undertale. I've used it as my avatar for years.
+
+<figure class="bird-figure">
+  <img src="bird.png" alt="Bird That Carries You Over a Disproportionately Small Gap, from Undertale" loading="lazy">
+</figure>
+
+{{< birdsong-player track="5YfXQD5Jn5o5Wxay5pDL3j" >}}
+
 ### Recent Songs
-{{< spotify type="track" id="7vjfnsnDXZGK4PSq54ISjc" width="100%" height="100" >}}
-{{< spotify type="track" id="2M7EflZCPCqqRLB9hy5MDy" width="100%" height="100" >}}
-{{< spotify type="track" id="514joG57v4yKTsfQmz7stz" width="100%" height="100" >}}
-
-![Bird That Carries You Over A Disproportionately Small Gap from Undertale](bird.png "Bird That Carries You Over A Disproportionately Small Gap from Undertale")
-
-> For the world is in a bad state, but everything will become still worse unless each of us does his best.
+{{< songs >}}
+{{< spotify type="track" id="4Gzn8DfO42lEHKtiruQd9u" width="100%" height="152" >}}
+{{< spotify type="track" id="1ShRHPAiiIrh0arZbSFmx1" width="100%" height="152" >}}
+{{< spotify type="track" id="4sZDyON3hp3bB9Y8uayqvT" width="100%" height="152" >}}
+{{< /songs >}}
