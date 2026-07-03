@@ -17,7 +17,7 @@ I wrote about how I think about work, motivation, and discipline [here](/blog/ro
     title="Muniworm"
     gif="projects/unwinding.gif"
     live="https://muniworm.probablyalex.com/" >}}
-Interactive artifact: the SF Muni "worm" unravels into the real Muni Metro map. Tap in with your Clipper card to explore!
+Interactive artifact: the SF Muni "worm" logo unravels into the real Muni Metro map. Tap in with your Clipper card to explore!
 {{< /project >}}
 
 {{< project
@@ -25,6 +25,13 @@ Interactive artifact: the SF Muni "worm" unravels into the real Muni Metro map. 
     gif="projects/debatecomps.gif"
     live="https://www.debatecomps.com/" >}}
 The world's debate calendar: combines spreadsheets into a unified platform where international debaters can find competitions. 800+ unique visitors per month.
+{{< /project >}}
+
+{{< project
+    title="Shopify Flow + Sidekick"
+    gif="projects/shopify.gif"
+    live="https://shopify.engineering/fine-tuning-agent-shopify-flow" >}}
+Prototyped and helped ship the AI agent that generates Shopify Flow automations from prompts — built the MCP server and tools, fine-tuning pipeline, and eval framework. Featured in Editions Winter '26.
 {{< /project >}}
 
 {{< project
