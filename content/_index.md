@@ -33,7 +33,7 @@ The world's debate calendar: combines spreadsheets into a unified platform where
     live="https://shopify.engineering/fine-tuning-agent-shopify-flow" >}}
 Prototyped and helped ship the AI agent that generates Shopify Flow automations from prompts — built the MCP server and tools, fine-tuning pipeline, and eval framework. Featured in Editions Winter '26.
 {{< /project >}}
-
+<!-- 
 {{< project
     title="noat"
     gif="projects/noat.gif"
@@ -41,6 +41,6 @@ Prototyped and helped ship the AI agent that generates Shopify Flow automations 
     live="/blog/wrapping-up-noat/"
     newtab="true" >}}
 A minimalist, local-first note-taking app with realtime cross-device sync, like Raycast Floating Notes with sync.
-{{< /project >}}
+{{< /project >}} -->
 
 {{< /projects >}}
