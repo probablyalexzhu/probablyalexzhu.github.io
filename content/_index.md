@@ -9,7 +9,7 @@ I'm also one of North America's top-ranked competitive debaters and led Waterloo
 
 I wrote about how I think about work, motivation, and discipline [here](/blog/rolling-downhill/).
 
-### Selected Work
+### Selected Works
 
 {{< projects >}}
 
