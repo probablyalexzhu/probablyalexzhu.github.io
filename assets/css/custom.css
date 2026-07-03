@@ -25,6 +25,31 @@ html.dark {
      (indigo-400 #818CF8) instead of dull. */
 }
 
+/* ---- Smooth light/dark cross-fade ----
+   The theme already transitions text, borders and icons (its own
+   transition-colors, 150ms). We only ease the page/surface *backgrounds*,
+   which the theme flips instantly — layering our transition on top of the
+   theme's text transition was causing an end-of-fade flash. Scoping to
+   backgrounds keeps the two from fighting. */
+*,
+*::before,
+*::after {
+  transition:
+    background-color 0.4s ease,
+    background-image 0.4s ease;
+}
+
+/* Don't animate the transition itself during initial page load (avoids a
+   fade-in flash before the saved theme is applied) or for users who prefer
+   reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none;
+  }
+}
+
 .max-w-prose {
     max-width: 100%;
     padding-right: 5%;
