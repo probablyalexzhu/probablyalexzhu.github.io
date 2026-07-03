@@ -1,15 +1,11 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "probablyalex"
-description = "Alex Zhu — Software Engineering @ Uwaterloo and competitive debater. I build things and write about work, discipline, and craft."
 
-dateFormat = "January 2, 2006"
-
+# The [author] table feeds Hugo's .Site.Author (which the theme reads), so it
+# must stay at the language top level — do NOT nest it under [params].
 [author]
   name = "Alex Zhu"
   image = "img/author.jpg"
@@ -61,3 +57,12 @@ dateFormat = "January 2, 2006"
   #   { twitch = "https://twitch.tv/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" }
+
+# Custom scalar params: Hugo deprecated language-top-level custom params, so
+# these live under [params]. The theme reads them via .Site.Params.*.
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  description = "Alex Zhu — Software Engineering @ Uwaterloo and competitive debater. I build things and write about work, discipline, and craft."
+  dateFormat = "January 2, 2006"
