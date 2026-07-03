@@ -2,23 +2,17 @@
      title  (required)  card heading
      gif    (required)  path to a GIF/image. Looked up in assets/ (Hugo Pipes);
                         falls back to the raw value for /static paths or full URLs.
-     The whole card links to one destination, in priority order:
-     live   (optional)  deployment URL — preferred link target
-     github (optional)  repo URL — used if there's no live link
-     blog   (optional)  write-up URL — used if there's no live or github link
+     live   (optional)  destination the whole card links to.
    The blurb is the inner content (markdown allowed). */ -}}
 {{- $title := .Get "title" -}}
 {{- $blurb := .Inner | markdownify -}}
 {{- $live := .Get "live" -}}
-{{- $github := .Get "github" -}}
-{{- $blog := .Get "blog" -}}
 {{- /* focus: object-position for the cropped image, e.g. "center 30%"
        (lower % shows a higher part of the frame). Defaults to center. */ -}}
 {{- $focus := .Get "focus" -}}
 {{- $gif := .Get "gif" -}}
 {{- with resources.Get $gif }}{{ $gif = .RelPermalink }}{{ end -}}
-{{- $primaryURL := $live | default $github | default $blog -}}
-<a class="proj-card"{{ with $primaryURL }} href="{{ . }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener noreferrer"{{ end }}{{ end }}>
+<a class="proj-card"{{ with $live }} href="{{ . }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener noreferrer"{{ end }}{{ end }}>
   {{- with $gif }}
   <div class="proj-card__media">
     <img src="{{ . }}" alt="{{ $title }} preview" loading="lazy" decoding="async"{{ with $focus }} style="object-position: {{ . }}"{{ end }}>
