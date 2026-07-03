@@ -338,11 +338,20 @@ header nav img:hover {
   /* A hair of trailing space so the ♪ doesn't crowd the next word. */
   margin-right: 0.15em;
   cursor: pointer;
+  /* Flow inline with the sentence so it wraps and stays left-aligned, rather
+     than behaving like a centered inline-block <button> (UA default). */
+  display: inline;
+  text-align: inherit;
   white-space: normal;
 }
 
+/* Match the theme's inline-link hover exactly: white text on a primary fill.
+   A colour-only swap turns it white-on-white and vanishes in light mode,
+   because --color-neutral is #fff there. */
 .bird-song:hover {
   color: rgba(var(--color-neutral), 1);
+  background-color: rgba(var(--color-primary-600), 1);
+  border-radius: 0.09rem;
 }
 
 .bird-song:focus-visible {
