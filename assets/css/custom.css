@@ -50,9 +50,12 @@ html.dark {
   }
 }
 
+/* Fill the theme's container column (overriding Congo's ~65ch prose cap) so
+   content lines up with the header on both edges. The page gutter comes from
+   the outer container's symmetric px-* padding — don't add asymmetric padding
+   here or the right edge won't match the header. */
 .max-w-prose {
     max-width: 100%;
-    padding-right: 5%;
 }
 
 /* No underline on inline text links (they stay colour-distinguished). */
