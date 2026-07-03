@@ -1,0 +1,11 @@
+{{- /* Lays {{< spotify >}} embeds in a row on desktop, stacked on mobile. Usage:
+
+  {{< songs >}}
+    {{< spotify type="track" id="..." height="152" >}}
+    {{< spotify type="track" id="..." height="152" >}}
+  {{< /songs >}}
+
+  not-prose opts out of the theme's prose spacing on the embeds. */ -}}
+<div class="song-row not-prose">
+  {{- .Inner -}}
+</div>

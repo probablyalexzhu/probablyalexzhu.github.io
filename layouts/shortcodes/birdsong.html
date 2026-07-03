@@ -1,0 +1,9 @@
+{{- /* Inline trigger for the bird-song easter egg. The song title itself is the
+       button — click it to play the hidden Spotify embed rendered by
+       {{< birdsong-player >}}. Usage (inline, mid-sentence):
+
+         {{< birdsong >}}Bird That Carries You Over a Small Gap{{< /birdsong >}}
+
+       The ♪ swaps to animated equaliser bars while playing. */ -}}
+{{- $label := trim .Inner " " -}}
+{{- printf `<button type="button" class="bird-song" aria-pressed="false" aria-label="%s — click to play">%s <span class="bird-song__note" aria-hidden="true">&#9834;</span><span class="bird-song__eq" aria-hidden="true"><span></span><span></span><span></span></span></button>` $label $label | safeHTML -}}

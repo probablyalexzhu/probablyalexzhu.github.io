@@ -1,24 +1,23 @@
 <!--
-Code is from https://gist.github.com/j-un/e7d0b3118556479392bd2269f7059242 by user j-un
+Spotify embed shortcode.
 Parameters:
-    type - (Required) album / track / playlist / artist
-    id - (Required) Target ID
-    width - (Optional) width
-    height - (Optional) height
+    type   - (Required) album / track / playlist / artist
+    id     - (Required) Target ID
+    width  - (Optional) width  (default 100%)
+    height - (Optional) height (default 380)
+Uses the modern embed (?utm_source=generator), which renders on a
+transparent background so it sits cleanly on light or dark pages.
 -->
-
-{{ if .IsNamedParams }}
-<iframe src="https://open.spotify.com/embed/{{ .Get "type" }}/{{ .Get "id" }}"
-    width="{{ default "100%" (.Get "width") }}"
-    height="{{ default "380" (.Get "height") }}"
+{{- $type := cond .IsNamedParams (.Get "type") (.Get 0) -}}
+{{- $id := cond .IsNamedParams (.Get "id") (.Get 1) -}}
+{{- $width := cond .IsNamedParams (.Get "width") (.Get 2) | default "100%" -}}
+{{- $height := cond .IsNamedParams (.Get "height") (.Get 3) | default "380" -}}
+<iframe
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}?utm_source=generator"
+    width="{{ $width }}"
+    height="{{ $height }}"
     frameborder="0"
-    allowtransparency="true"
-    allow="encrypted-media"></iframe>
-{{ else }}
-<iframe src="https://open.spotify.com/embed/{{ .Get 0 }}/{{ .Get 1 }}"
-    width="{{ default "100%" (.Get 2) }}"
-    height="{{ default "380" (.Get 3) }}"
-    frameborder="0"
-    allowtransparency="true"
-    allow="encrypted-media"></iframe>
-{{ end }}
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>

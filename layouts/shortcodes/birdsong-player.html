@@ -1,0 +1,67 @@
+{{- /* Hidden Spotify player for the bird-song easter egg. Renders an off-screen
+       embed and wires every .bird-song button on the page to toggle it via
+       Spotify's official IFrame API. Place once, after the trigger. Usage:
+
+         {{< birdsong-player track="5YfXQD5Jn5o5Wxay5pDL3j" >}}
+
+       Anonymous listeners get Spotify's ~30s preview, which is exactly the
+       clip we want. */ -}}
+{{- $track := .Get "track" -}}
+{{- /* Outer wrapper is off-screen and SURVIVES the API replacing the inner
+       target with an iframe, so the player never shows on the page. */ -}}
+<div class="bird-song-embed" aria-hidden="true"><div id="bird-song-embed"></div></div>
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+<script>
+(function () {
+  var TRACK = 'spotify:track:{{ $track }}';
+  var controller = null, ready = false;
+  var triggers = [];
+  var watchdog = null;
+
+  function paint(isPlaying) {
+    triggers.forEach(function (b) {
+      b.classList.toggle('is-playing', isPlaying);
+      b.setAttribute('aria-pressed', isPlaying ? 'true' : 'false');
+    });
+  }
+
+  // When the anonymous 30s preview ends, Spotify simply stops emitting updates
+  // (no clean pause event), so the bars would animate forever. Treat a gap in
+  // updates as "stopped" and reset the UI. Full-track playback keeps the
+  // updates flowing, so the watchdog just keeps re-arming.
+  function armWatchdog() {
+    if (watchdog) clearTimeout(watchdog);
+    watchdog = setTimeout(function () { paint(false); }, 1200);
+  }
+
+  window.onSpotifyIframeApiReady = function (IFrameAPI) {
+    var el = document.getElementById('bird-song-embed');
+    if (!el) return;
+    IFrameAPI.createController(el, { uri: TRACK, width: 300, height: 80 }, function (ctrl) {
+      controller = ctrl;
+      ready = true;
+      ctrl.addListener('playback_update', function (e) {
+        if (!e || !e.data) return;
+        if (e.data.isPaused) {
+          if (watchdog) { clearTimeout(watchdog); watchdog = null; }
+          paint(false);
+        } else {
+          paint(true);
+          armWatchdog();
+        }
+      });
+    });
+  };
+
+  function bind() {
+    triggers = [].slice.call(document.querySelectorAll('.bird-song'));
+    triggers.forEach(function (b) {
+      b.addEventListener('click', function () {
+        if (ready && controller) controller.togglePlay();
+      });
+    });
+  }
+  if (document.readyState !== 'loading') bind();
+  else document.addEventListener('DOMContentLoaded', bind);
+})();
+</script>
