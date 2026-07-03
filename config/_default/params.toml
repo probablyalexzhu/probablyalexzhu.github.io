@@ -12,6 +12,10 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 
+# Default social-share (Open Graph / Twitter) card image; served from
+# static/og.png. Pages can override with `images` in their front matter.
+images = ["og.png"]
+
 # mainSections = ["section1", "section2"]
 # robots = ""
 

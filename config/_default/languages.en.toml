@@ -6,8 +6,7 @@ weight = 1
 rtl = false
 
 title = "probablyalex"
-# logo = "img/logo.jpg"
-description = "Software Engineering @ UWaterloo. Competitive debater. Writing about motivation, discipline, and building things."
+description = "Alex Zhu — Software Engineering @ Uwaterloo and competitive debater. I build things and write about work, discipline, and craft."
 
 dateFormat = "January 2, 2006"
 
