@@ -11,3 +11,41 @@
 <div class="proj-grid not-prose">
   {{- .Inner -}}
 </div>
+{{- /* Hover-to-play (desktop) / play-in-view (touch) for project GIFs.
+       Cards rest on a static poster; the GIF is only fetched when it plays,
+       so nothing animates by default and the GIFs load lazily. */ -}}
+<script>
+(function () {
+  if (window.__projCardsInit) return;
+  window.__projCardsInit = true;
+  var imgs = Array.prototype.slice.call(
+    document.querySelectorAll('.proj-card__media img[data-gif]'));
+  if (!imgs.length) return;
+  function play(img) {
+    if (img.getAttribute('src') !== img.dataset.gif) img.src = img.dataset.gif;
+  }
+  function rest(img, src) {
+    if (src && img.getAttribute('src') !== src) img.src = src;
+  }
+  var canHover = window.matchMedia('(hover: hover)').matches;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (canHover) {
+    // Desktop: rest on the curated poster, play the GIF while hovered.
+    imgs.forEach(function (img) {
+      var card = img.closest('.proj-card');
+      card.addEventListener('mouseenter', function () { play(img); });
+      card.addEventListener('mouseleave', function () { rest(img, img.dataset.poster); });
+    });
+  } else if (!reduce && 'IntersectionObserver' in window) {
+    // Touch: rest on the GIF's first frame (seamless swap), play when in view.
+    imgs.forEach(function (img) { rest(img, img.dataset.posterMobile); });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) play(e.target);
+        else rest(e.target, e.target.dataset.posterMobile);
+      });
+    }, { threshold: 0.6 });
+    imgs.forEach(function (img) { io.observe(img); });
+  }
+})();
+</script>

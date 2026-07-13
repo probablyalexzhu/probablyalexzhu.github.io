@@ -28,7 +28,7 @@ images = ["og.png"]
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = false
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom

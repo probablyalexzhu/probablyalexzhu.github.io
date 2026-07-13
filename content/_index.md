@@ -14,6 +14,14 @@ I wrote about how I think about work, motivation, and discipline [here](/blog/ro
 {{< projects >}}
 
 {{< project
+    title="Reken Website"
+    gif="projects/reken.gif"
+    live="https://reken.ai/"
+    newtab="true" >}}
+Single-handedly built Reken's company website and helped shape its design and messaging at launch. Featured by Fortune, with fun interactive modern art.
+{{< /project >}}
+
+{{< project
     title="Muniworm"
     gif="projects/unwinding.gif"
     live="https://muniworm.probablyalex.com/" >}}
@@ -33,7 +41,7 @@ The world's debate calendar: combines spreadsheets into a unified platform where
     live="https://shopify.engineering/fine-tuning-agent-shopify-flow" >}}
 Prototyped and helped ship the AI agent that generates Shopify Flow automations from prompts — built the MCP server and tools, fine-tuning pipeline, and eval framework. Featured in Editions Winter '26.
 {{< /project >}}
-<!-- 
+
 {{< project
     title="noat"
     gif="projects/noat.gif"
@@ -41,6 +49,6 @@ Prototyped and helped ship the AI agent that generates Shopify Flow automations 
     live="/blog/wrapping-up-noat/"
     newtab="true" >}}
 A minimalist, local-first note-taking app with realtime cross-device sync, like Raycast Floating Notes with sync.
-{{< /project >}} -->
+{{< /project >}}
 
 {{< /projects >}}

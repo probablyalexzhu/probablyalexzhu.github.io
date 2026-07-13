@@ -13,12 +13,24 @@
 {{- /* focus: object-position for the cropped image, e.g. "center 30%"
        (lower % shows a higher part of the frame). Defaults to center. */ -}}
 {{- $focus := .Get "focus" -}}
-{{- $gif := .Get "gif" -}}
-{{- with resources.Get $gif }}{{ $gif = .RelPermalink }}{{ end -}}
+{{- $gifParam := .Get "gif" -}}
+{{- $gif := $gifParam -}}
+{{- with resources.Get $gifParam }}{{ $gif = .RelPermalink }}{{ end -}}
+{{- /* Static poster shown at rest; the GIF is loaded on hover (desktop) or
+       when scrolled into view (touch), swapped in via JS. Falls back to the
+       raw GIF if no matching "<name>-poster.png" exists in assets. */ -}}
+{{- $poster := "" -}}
+{{- with resources.Get (replaceRE `\.gif$` "-poster.png" $gifParam) }}{{ $poster = .RelPermalink }}{{ end -}}
+{{- /* On touch (play-in-view), rest on the GIF's first frame so the swap to
+       the playing GIF is seamless. Falls back to the curated poster when no
+       "<name>-poster-start.png" exists (i.e. when the poster already is
+       frame 0), so most cards need no extra asset. */ -}}
+{{- $posterStart := $poster -}}
+{{- with resources.Get (replaceRE `\.gif$` "-poster-start.png" $gifParam) }}{{ $posterStart = .RelPermalink }}{{ end -}}
 <a class="proj-card"{{ with $live }} href="{{ . }}"{{ if or (hasPrefix . "http") $newtab }} target="_blank" rel="noopener noreferrer"{{ end }}{{ end }}>
   {{- with $gif }}
   <div class="proj-card__media">
-    <img src="{{ . }}" alt="{{ $title }} preview" loading="lazy" decoding="async"{{ with $focus }} style="object-position: {{ . }}"{{ end }}>
+    <img src="{{ if $poster }}{{ $poster }}{{ else }}{{ . }}{{ end }}"{{ if $poster }} data-poster="{{ $poster }}" data-poster-mobile="{{ $posterStart }}" data-gif="{{ . }}"{{ end }} alt="{{ $title }} preview" loading="lazy" decoding="async"{{ with $focus }} style="object-position: {{ . }}"{{ end }}>
   </div>
   {{- end }}
   <div class="proj-card__body">
