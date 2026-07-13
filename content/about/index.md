@@ -1,6 +1,6 @@
 ---
 title: "About"
-summary: "About Alex Zhu."
+summary: "About Alex Zhu"
 tags: [about me]
 date: 2025-09-12
 showDate: false
