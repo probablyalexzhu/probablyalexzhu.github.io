@@ -8,7 +8,7 @@ title = "probablyalex"
 # must stay at the language top level — do NOT nest it under [params].
 [author]
   name = "Alex Zhu"
-  image = "img/author.jpg"
+  image = "img/author.jpeg"
   headline = ""
   bio = ""
   links = [
