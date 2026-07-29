@@ -155,6 +155,19 @@ article.text-center > header > div { grid-column: 2; grid-row: 3; }
   article.text-center > header > div { grid-column: 1; grid-row: 3; }
 }
 
+/* Header desktop nav: Congo wraps every icon in `align-text-bottom`, which
+   drops the appearance/search icons to the text's descender line so they sit
+   lower than the "about"/"blog" labels. Center the row and the icon glyphs so
+   they line up with the text. Scoped to the header so other icons (footer,
+   article meta) keep the theme's default alignment. */
+header nav > ul {
+  align-items: center;
+}
+
+header nav .icon {
+  vertical-align: middle;
+}
+
 header nav img {
   transition: transform 0.3s ease;
 }
