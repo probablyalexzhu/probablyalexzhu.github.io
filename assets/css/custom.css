@@ -1,6 +1,10 @@
 html {
   font-size: 12pt;
   font-family: "Avenir", sans-serif;
+  /* The full-bleed footer is 100vw wide; `clip` swallows the sub-pixel/
+     scrollbar overshoot without turning html into a scroll container (so it
+     won't break position:sticky the way overflow-x:hidden would). */
+  overflow-x: clip;
 }
 
 /* ---- Custom dark-mode palette ----
@@ -279,6 +283,39 @@ header nav img:hover {
   .proj-card:hover {
     transform: none;
   }
+}
+
+/* ---- Full-bleed illustrated footer (partials/extend-footer.html) ----
+   A hand-drawn landscape band pinned to the bottom of every page. */
+.footer-art {
+  /* Break out of the centered max-w-7xl body column to span the full
+     viewport. The container's horizontal padding cancels out of this calc,
+     so the band always reaches both viewport edges. */
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  /* Cancel the theme footer's bottom padding (py-10 = 2.5rem) so the art
+     sits flush against the bottom edge; keep the gap above it. */
+  margin-top: 2.5rem;
+  margin-bottom: -2.5rem;
+  line-height: 0; /* kill descender gap under the inline-block image */
+}
+
+.footer-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  /* The source is black ink on white paper (no alpha). `multiply` drops the
+     white paper onto the light page, leaving only the linework. */
+  mix-blend-mode: multiply;
+}
+
+/* Dark mode: invert to white ink on black paper, then `screen` drops the
+   now-black paper onto the dark page. Net effect in both themes: the paper
+   background disappears and only the drawing shows. */
+.dark .footer-art img {
+  filter: invert(1);
+  mix-blend-mode: screen;
 }
 
 /* ---- Photo gallery ({{< gallery >}}) ---- */

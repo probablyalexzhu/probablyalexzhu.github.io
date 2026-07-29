@@ -1,0 +1,17 @@
+{{/* Full-bleed illustrated footer band, shown on every page. Rendered via
+     Congo's extend-footer hook so it survives theme updates. Decorative only,
+     hence aria-hidden + empty alt. See `.footer-art` in assets/css/custom.css
+     for the full-width breakout and the light/dark blend handling. */}}
+{{ with resources.Get "img/footer.png" }}
+  {{ $img := . | fingerprint }}
+  <div class="footer-art" aria-hidden="true">
+    <img
+      src="{{ $img.RelPermalink }}"
+      alt=""
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+{{ end }}
