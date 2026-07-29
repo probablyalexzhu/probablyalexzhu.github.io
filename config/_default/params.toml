@@ -25,7 +25,7 @@ images = ["og.png"]
   showTitle = true
 
 [footer]
-  showCopyright = true
+  showCopyright = false
   showThemeAttribution = false
   showAppearanceSwitcher = false
   showScrollToTop = false
