@@ -1,26 +1,19 @@
-{{ with resources.Get "img/footer.png" }}
-  {{ $img := . | fingerprint }}
-  <div class="footer-art">
-    <img
-      src="{{ $img.RelPermalink }}"
-      alt=""
-      aria-hidden="true"
-      width="{{ $img.Width }}"
-      height="{{ $img.Height }}"
-      loading="lazy"
-      decoding="async"
-    />
-    {{ with site.Params.footer.artCreditURL }}
-      {{ $name := default "the artist" site.Params.footer.artCreditName }}
-      {{ $label := printf "Footer illustration by %s" $name }}
-      <a
-        class="footer-art__sig"
-        href="{{ . }}"
-        title="{{ $label }}"
-        aria-label="{{ $label }}"
-        target="_blank"
-        rel="noopener"
-      ></a>
-    {{ end }}
-  </div>
-{{ end }}
+{{/* Full-bleed illustrated footer band, shown on every page. Rendered via
+     Congo's extend-footer hook so it survives theme updates.
+     The art is not an <img>: it's a mask over a `currentColor`
+     fill, so the ink follows the theme's text colour */}}
+<div class="footer-art">
+  <div class="footer-art__ink" aria-hidden="true"></div>
+  {{ with site.Params.footer.artCreditURL }}
+    {{ $name := default "the artist" site.Params.footer.artCreditName }}
+    {{ $label := printf "Footer illustration by %s" $name }}
+    <a
+      class="footer-art__sig"
+      href="{{ . }}"
+      title="{{ $label }}"
+      aria-label="{{ $label }}"
+      target="_blank"
+      rel="noopener"
+    ></a>
+  {{ end }}
+</div>

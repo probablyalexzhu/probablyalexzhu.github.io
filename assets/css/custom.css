@@ -312,11 +312,13 @@ header nav img:hover {
   margin-bottom: -2.5rem;
   line-height: 0; /* kill descender gap under the inline-block image */
   position: relative; /* positioning context for the signature hit box */
+  /* Single source of truth for the artwork, shared by both ink layers. */
+  --footer-art-src: url("/img/footer-ink.png");
 }
 
-/* Clickable credit over the artist's signature. Invisible square hit box —
-   no hover ring; the drawn stamp is its own affordance, and the <a>'s title
-   gives a tooltip on hover. */
+/* Clickable credit over the artist's signature. Invisible square hit box — the
+   affordance is the stamp itself turning accent-coloured on hover/focus (see
+   .footer-art__ink--sig), plus the <a>'s title tooltip. */
 .footer-art__sig {
   position: absolute;
   --sig-size: clamp(20px, 1.67%, 44px);
@@ -327,27 +329,51 @@ header nav img:hover {
   transform: translate(-50%, -50%);
 }
 
+/* Keyboard focus still needs to be visible even though hover isn't styled.
+   Same ring as .gallery__item — the site's other clickable image region. */
 .footer-art__sig:focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid rgba(var(--color-primary-500), 1);
   outline-offset: 2px;
+  border-radius: 6px;
 }
 
-.footer-art img {
-  display: block;
+/* The linework: a `currentColor` fill masked by the art's alpha channel, so the
+   ink is exactly the footer's text colour in whichever theme is active. If the drawing is
+   ever redrawn, RENAME the file (footer-ink2.png) or caches will serve the old
+   one. */
+@property --footer-sig-tint {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: transparent;
+}
+
+.footer-art__ink {
   width: 100%;
-  height: auto;
-  margin: 0;
-  /* The source is black ink on white paper (no alpha). `multiply` drops the
-     white paper onto the light page, leaving only the linework. */
-  mix-blend-mode: multiply;
+  aspect-ratio: 2880 / 576;
+  -webkit-mask: var(--footer-art-src) 0 0 / 100% 100% no-repeat;
+  mask: var(--footer-art-src) 0 0 / 100% 100% no-repeat;
+
+  /* Hover/focus tints the "em" stamp. */
+  --art-w: 2880;
+  --art-h: 576;
+  --sig-x: 12;
+  --sig-y: 417;
+  --sig-w: 74;
+  --sig-h: 55;
+  background-color: currentColor;
+  background-image: linear-gradient(var(--footer-sig-tint) 0 0);
+  background-repeat: no-repeat;
+  background-size:
+    calc(var(--sig-w) / var(--art-w) * 100%)
+    calc(var(--sig-h) / var(--art-h) * 100%);
+  background-position:
+    calc(var(--sig-x) / (var(--art-w) - var(--sig-w)) * 100%)
+    calc(var(--sig-y) / (var(--art-h) - var(--sig-h)) * 100%);
+  transition: --footer-sig-tint 0.15s ease;
 }
 
-/* Dark mode: invert to white ink on black paper, then `screen` drops the
-   now-black paper onto the dark page. Net effect in both themes: the paper
-   background disappears and only the drawing shows. */
-.dark .footer-art img {
-  filter: invert(1);
-  mix-blend-mode: screen;
+.footer-art:has(.footer-art__sig:is(:hover, :focus)) .footer-art__ink {
+  --footer-sig-tint: rgba(var(--color-primary-500), 1);
 }
 
 /* ---- Photo gallery ({{< gallery >}}) ---- */
