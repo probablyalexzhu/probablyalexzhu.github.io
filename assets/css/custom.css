@@ -311,6 +311,25 @@ header nav img:hover {
   margin-top: 2.5rem;
   margin-bottom: -2.5rem;
   line-height: 0; /* kill descender gap under the inline-block image */
+  position: relative; /* positioning context for the signature hit box */
+}
+
+/* Clickable credit over the artist's signature. Invisible square hit box —
+   no hover ring; the drawn stamp is its own affordance, and the <a>'s title
+   gives a tooltip on hover. */
+.footer-art__sig {
+  position: absolute;
+  --sig-size: clamp(20px, 1.67%, 44px);
+  width: var(--sig-size);
+  aspect-ratio: 1;
+  left: max(1.67%, calc(var(--sig-size) / 2));
+  top: 77.3%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-art__sig:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 .footer-art img {

@@ -25,6 +25,8 @@ images = ["og.png"]
   showTitle = true
 
 [footer]
+  artCreditName = "Emily Wang"
+  artCreditURL = "https://www.emily-w.com/"
   showCopyright = false
   showThemeAttribution = false
   showAppearanceSwitcher = false
