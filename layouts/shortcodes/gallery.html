@@ -36,14 +36,25 @@
   if (!dlg || dlg.dataset.ready) return;
   dlg.dataset.ready = '1';
   var img = dlg.querySelector('.gallery-lightbox__img');
-  var items = [].slice.call(document.querySelectorAll('.gallery__item'));
+  /* Delegated click: this script is emitted with the FIRST gallery on the page,
+     so any gallery rendered further down doesn't exist yet at bind time.
+     Items are collected per-gallery on click, which also scopes prev/next to
+     the gallery the reader actually opened. */
+  var items = [];
   var idx = 0;
   function show(i) {
+    if (!items.length) return;
     idx = (i + items.length) % items.length;
     img.src = items[idx].getAttribute('data-full');
+    img.alt = items[idx].querySelector('img') ? items[idx].querySelector('img').alt : '';
   }
-  items.forEach(function (el, i) {
-    el.addEventListener('click', function () { show(i); if (!dlg.open) dlg.showModal(); });
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.gallery__item') : null;
+    if (!btn) return;
+    var group = btn.closest('.gallery') || document;
+    items = [].slice.call(group.querySelectorAll('.gallery__item'));
+    show(items.indexOf(btn));
+    if (!dlg.open) dlg.showModal();
   });
   dlg.querySelector('[data-next]').addEventListener('click', function () { show(idx + 1); });
   dlg.querySelector('[data-prev]').addEventListener('click', function () { show(idx - 1); });

@@ -377,16 +377,28 @@ header nav img:hover {
 }
 
 /* ---- Photo gallery ({{< gallery >}}) ---- */
+/* Flex rather than grid so a short gallery (or a partial last row) centres
+   instead of hugging the left edge. --gallery-cols keeps the column count in
+   one place; the basis math is the grid equivalent of repeat(n, 1fr). */
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.75rem;
+  --gallery-cols: 4;
+  --gallery-gap: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gallery-gap);
   margin: 2rem 0;
 }
 
-@media (max-width: 1024px) { .gallery { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 768px)  { .gallery { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px)  { .gallery { grid-template-columns: 1fr; } }
+.gallery > .gallery__item {
+  flex: 0 1 calc(
+    (100% - (var(--gallery-cols) - 1) * var(--gallery-gap)) / var(--gallery-cols)
+  );
+}
+
+@media (max-width: 1024px) { .gallery { --gallery-cols: 3; } }
+@media (max-width: 768px)  { .gallery { --gallery-cols: 2; } }
+@media (max-width: 480px)  { .gallery { --gallery-cols: 1; } }
 
 /* Spotify embeds: auto-fitting grid. Fits as many columns as can hold a
    ~300px-wide player, then wraps (3 → 2 → 1) — so players never get
