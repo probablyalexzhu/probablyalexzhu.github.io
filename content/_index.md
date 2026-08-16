@@ -32,7 +32,7 @@ Interactive artifact: the SF Muni "worm" logo unravels into the real Muni Metro 
     title="DebateComps"
     gif="projects/debatecomps.gif"
     live="https://www.debatecomps.com/" >}}
-The world's debate calendar: combines spreadsheets into a unified platform where international debaters can find competitions. 800+ unique visitors per month.
+The world's debate calendar: combines spreadsheets into a unified platform where international debaters can find competitions. 1,000+ unique visitors per month.
 {{< /project >}}
 
 {{< project
