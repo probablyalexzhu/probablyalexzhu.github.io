@@ -17,7 +17,7 @@ showRecent: false
 ### Trivia
 - I was raised in York Region, north of Toronto
 - Things that shaped me: Andor, Range (David Epstein), Vlogbrothers, All About Love, Digital Minimalism, Adventure Time
-- Countries visited, many for debating: 🇨🇦 🇨🇳 🇺🇸 🇫🇷 🇪🇸 🇩🇴 🇻🇳 🇵🇦 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇸🇬 🇰🇷 🇯🇵 🇲🇾 🇧🇬 🇳🇱
+- Countries visited, many for debating: 🇨🇦 🇨🇳 🇺🇸 🇫🇷 🇪🇸 🇩🇴 🇻🇳 🇵🇦 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇸🇬 🇰🇷 🇯🇵 🇲🇾 🇧🇬 🇳🇱 🇮🇹 🇻🇦
 - Some hobbies and interests: tennis, rock climbing, skateboarding, ultimate, following Toronto sports, filmmaking, producing music, painting, photography
 
 ### Camera Roll
